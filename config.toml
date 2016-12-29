@@ -42,7 +42,6 @@ theme = "hugo-elate-theme"
     title = "Spring 2017 - Manchester, England"
     subtitle = "The epic student hackathon in Manchester <br> & we're making it more accessible than ever."
     url = "#"
-    img = "shlogo.png"
  
   # Intro section
   # Available icons: http://simplelineicons.com/
