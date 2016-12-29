@@ -24,4 +24,4 @@ build:
         version: "0.17"
         theme: hugo-elate-theme 
         config: config.toml
-        flags: --buildDrafts=true
+        flags: --buildDrafts=false
