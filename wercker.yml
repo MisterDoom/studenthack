@@ -25,7 +25,6 @@ build:
         theme: hugo-elate-theme 
         config: config.toml
         flags: --buildDrafts=true
-
 deploy:
   steps:
     - install-packages:
