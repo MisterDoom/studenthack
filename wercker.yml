@@ -26,6 +26,7 @@ build:
         config: config.toml
         flags: --buildDrafts=true
 deploy:
+    # Deploy to GitHub-Pages
   steps:
     - install-packages:
         packages: git ssh-client
