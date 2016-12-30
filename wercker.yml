@@ -25,3 +25,10 @@ build:
         theme: hugo-elate-theme 
         config: config.toml
         flags: --buildDrafts=false
+
+deploy:
+  steps:
+      - lukevivier/gh-pages@0.2.1:
+          token: $GIT_TOKEN
+          domain: studenthack.beta
+          basedir: public
