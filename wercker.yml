@@ -24,11 +24,11 @@ build:
         version: "0.17"
         theme: hugo-elate-theme 
         config: config.toml
-        flags: --buildDrafts=false
+        flags: --buildDrafts=true
 
 deploy:
   steps:
-      - lukevivier/gh-pages@0.2.1:
-          token: $GIT_TOKEN
-          domain: studenthack.beta
-          basedir: public
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: studenthack
+        basedir: public
