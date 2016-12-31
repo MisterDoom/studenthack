@@ -11,17 +11,17 @@
         {{ partial "nav.html" .}}
         {{ partial "hero.html" .}}
 		
-	{{ if .Site.Params.sponsors.enable }}
-       		{{ partial "sponsors.html" .}}
-       	{{ end }}
+	{{ if .Site.Params.faq.enable }}
+        	{{ partial "faq.html" .}}
+	{{ end }}
 
 	{{ if .Site.Params.schedule.enable }}
         	{{ partial "schedule.html" .}}
 	{{ end }}
 
-	{{ if .Site.Params.faq.enable }}
-        	{{ partial "faq.html" .}}
-	{{ end }}
+	{{ if .Site.Params.sponsors.enable }}
+       		{{ partial "sponsors.html" .}}
+       	{{ end }}
 
 	{{ if .Site.Params.about.enable }}
         	{{ partial "about.html" .}}

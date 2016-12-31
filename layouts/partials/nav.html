@@ -16,16 +16,16 @@
 
                     <li class="active"><a href="#" data-nav-section="home"><span>{{ with .Site.Params.navigation.home }}{{ . | markdownify }}{{ end }}</span></a></li>
                     
-                    {{ if .Site.Params.sponsors.enable }}
-                    <li><a href="#" data-nav-section="sponsors"><span>{{ with .Site.Params.navigation.sponsors }}{{ . | markdownify }}{{ end }}</span></a></li> 
+                    {{ if .Site.Params.faq.enable }}
+                    <li><a href="#" data-nav-section="faq"><span>{{ with .Site.Params.navigation.faq }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
 
                     {{ if .Site.Params.schedule.enable }}
                     <li><a href="#" data-nav-section="schedule"><span>{{ with .Site.Params.navigation.schedule }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
 
-                    {{ if .Site.Params.faq.enable }}
-                    <li><a href="#" data-nav-section="faq"><span>{{ with .Site.Params.navigation.faq }}{{ . | markdownify }}{{ end }}</span></a></li> 
+                    {{ if .Site.Params.sponsors.enable }}
+                    <li><a href="#" data-nav-section="sponsors"><span>{{ with .Site.Params.navigation.sponsors }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
 
                     {{ if .Site.Params.about.enable }}
