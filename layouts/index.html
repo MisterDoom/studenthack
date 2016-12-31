@@ -11,16 +11,16 @@
         {{ partial "nav.html" .}}
         {{ partial "hero.html" .}}
 		
-	{{ if .Site.Params.work.enable }}
-       		{{ partial "work.html" .}}
+	{{ if .Site.Params.sponsors.enable }}
+       		{{ partial "sponsors.html" .}}
        	{{ end }}
 
-	{{ if .Site.Params.testimonials.enable }}
-        	{{ partial "testimonials.html" .}}
+	{{ if .Site.Params.schedule.enable }}
+        	{{ partial "schedule.html" .}}
 	{{ end }}
 
-	{{ if .Site.Params.services.enable }}
-        	{{ partial "services.html" .}}
+	{{ if .Site.Params.faq.enable }}
+        	{{ partial "faq.html" .}}
 	{{ end }}
 
 	{{ if .Site.Params.about.enable }}
