@@ -69,7 +69,7 @@ theme = "hugo-elate-theme"
 
     [[params.faq.item]]
       title = "What should I bring?"
-      description = "Bring your laptop, phone and chargers. Other things to consider: spare clothes, adapters, hardware and a sleeping bag, oh and don't forget your enthusiasm! We are going to provide you with all food, swag, sleeping rooms and drinks you will need to keep you going."      
+      description = "Bring your laptop, phone and chargers. Other things to consider: spare clothes, adapters, hardware and a sleeping bag, oh and don't forget your enthusiasm! We are going to provide you with all food, swag, sleeping rooms and drinks you will need."      
       icon = "icon-monitor"
 
     [[params.faq.item]]
@@ -101,43 +101,32 @@ theme = "hugo-elate-theme"
   [params.schedule]
     enable = true 
     title = "Schedule"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "N/A"
 
     [[params.schedule.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      quote = "N/A"
+      person = "N/A"
       img = "person1.jpg"
       alt = "Person1"
-
-    [[params.schedule.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
-
-    [[params.schedule.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
 
   # Sponsors section
   [params.sponsors]
     enable = true
     title = "Sponsors"
     description = "They made it possible!"
+    footertext = "We Thank you!"
 
     [[params.sponsors.row]]
       img = "work_1.jpg"
       alt = "Image2"
-      title = "Sponsor "
+      title = "Sponsor"
       subtitle = "Sponsor"
 
   # About section
   [params.about]
     enable = false
     title = "About"
-    description = "
+    description = ""
 
     [[params.about.item]]
       name = ""
