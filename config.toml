@@ -4,8 +4,7 @@ title = "StudentHack V"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
-[params]
-  
+[params] 
   custom_css = ["css/custom1.css"]
 
   # Meta
@@ -47,26 +46,50 @@ theme = "hugo-elate-theme"
   [params.faq]
     enable = true
     title = "FAQ"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.faq.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Are tickets free?"
+      description = "Yes, 100%."
       icon = "icon-anchor"
 
     [[params.faq.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Who can get a ticket?"
+      description = "All enrolled students over 18 and those who graduated in the last one year."
       icon = "icon-layers2"
 
     [[params.faq.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "What if I study outside the UK?"
+      description = "You are still welcome to join us! However, we cannot sponsor visas."
       icon = "icon-video2"
 
-      [[params.faq.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+    [[params.faq.item]]
+      title = "I haven't coded much. Should I come?"
+      description = "Hackathons are for beginners. Networking with and seeing awesome hackers in action will expose you to a tremendous amount of knowledge. Amazing suit of industry experts and mentors that are happy to assist you!"      
+      icon = "icon-monitor"
+
+    [[params.faq.item]]
+      title = "What should I bring?"
+      description = "Bring your laptop, phone and chargers. Other things to consider: spare clothes, adapters, hardware and a sleeping bag, oh and don't forget your enthusiasm! We are going to provide you with all food, swag, sleeping rooms and drinks you will need to keep you going."      
+      icon = "icon-monitor"
+
+    [[params.faq.item]]
+      title = "I don't have a team. Help?"
+      description = "Don't let that discourage you ― it is actually part of the fun! You will have 3 new friends by the end of the weekend. A team building session will be organized to help you form teams. We encourage everyone to use Devpost to find teammates."      
+      icon = "icon-monitor"
+
+    [[params.faq.item]]
+      title = "What can I expect from GreatUniHack?"
+      description = "An entire weekend of great company, good food and plenty of swag! We'll also have hardware and tons of mentors."      
+      icon = "icon-monitor"
+
+    [[params.faq.item]]
+      title = "Who owns my IP/code/idea?"
+      description = "You own all the rights to your intellectual property. We won't claim any right over anything made during this event."      
+      icon = "icon-monitor"
+
+    [[params.faq.item]]
+      title = "Do you have a code of conduct?"
+      description = "Yes! We strictly adhere to the <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>Major League Hacking Code of Conduct</a>."      
       icon = "icon-monitor"
 
   # Schedule section
