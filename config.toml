@@ -21,6 +21,11 @@ theme = "hugo-elate-theme"
     about = "About"
     contact = "Contact"
 
+    # Map Link
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
     # You can add custom links before or after the default links
     # Assign a weight to define the order
     
@@ -50,56 +55,56 @@ theme = "hugo-elate-theme"
     [[params.faq.item]]
       title = "Are tickets free?"
       description = "Yes, 100%."
-      icon = "icon-anchor"
+      icon = "icon-wallet"
 
     [[params.faq.item]]
       title = "Who can get a ticket?"
       description = "All enrolled students over 18 and those who graduated in the last one year."
-      icon = "icon-layers2"
+      icon = "icon-graduation"
 
     [[params.faq.item]]
       title = "What if I study outside the UK?"
       description = "You are still welcome to join us! However, we cannot sponsor visas."
-      icon = "icon-video2"
+      icon = "icon-plane"
 
     [[params.faq.item]]
       title = "I haven't coded much. Should I come?"
       description = "Hackathons are for beginners. Networking with and seeing awesome hackers in action will expose you to a tremendous amount of knowledge. Amazing suit of industry experts and mentors that are happy to assist you!"      
-      icon = "icon-monitor"
+      icon = "icon-briefcase"
 
     [[params.faq.item]]
       title = "What should I bring?"
       description = "Bring your laptop, phone and chargers. Other things to consider: spare clothes, adapters, hardware and a sleeping bag, oh and don't forget your enthusiasm! We are going to provide you with all food, swag, sleeping rooms and drinks you will need."      
-      icon = "icon-monitor"
+      icon = "icon-basket-loaded"
 
     [[params.faq.item]]
       title = "I don't have a team. Help?"
       description = "Don't let that discourage you ― it is actually part of the fun! You will have 3 new friends by the end of the weekend. A team building session will be organized to help you form teams. We encourage everyone to use Devpost to find teammates."      
-      icon = "icon-monitor"
+      icon = "icon-people"
 
     [[params.faq.item]]
-      title = "What can I expect from GreatUniHack?"
+      title = "What can I expect from StudentHack?"
       description = "An entire weekend of great company, good food and plenty of swag! We'll also have hardware and tons of mentors."      
-      icon = "icon-monitor"
+      icon = "icon-magic-wand"
 
     [[params.faq.item]]
       title = "Who owns my IP/code/idea?"
       description = "You own all the rights to your intellectual property. We won't claim any right over anything made during this event."      
-      icon = "icon-monitor"
+      icon = "icon-bulb"
 
     [[params.faq.item]]
       title = "Do you have a code of conduct?"
       description = "Yes! We strictly adhere to the <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>Major League Hacking Code of Conduct</a>."      
-      icon = "icon-monitor"
+      icon = "icon-book-open"
 
     [[params.faq.item]]
       title = "Wanna Pre-register?"
-      description = "Yes! You can doo it right <a href='https://docs.google.com/forms/d/1soQyVObgRUz1TyeQrhe1aGcHU0pZsB99X9UBrrGpuaI/edit'> here</a>." 
-      icon = "icon-monitor"
+      description = "Yes! You can do it right <a href='https://docs.google.com/forms/d/1soQyVObgRUz1TyeQrhe1aGcHU0pZsB99X9UBrrGpuaI/edit'> here</a>." 
+      icon = "icon-like"
 
   # Schedule section
   [params.schedule]
-    enable = true 
+    enable = false 
     title = "Schedule"
     description = "N/A"
 
@@ -172,7 +177,7 @@ theme = "hugo-elate-theme"
 
     [[params.counters.item]]
       description = "Sleepless Hours"
-      icon = "icon-people"
+      icon = "icon-power"
       from = 0
       to = 420
       interval = 50
@@ -189,8 +194,7 @@ theme = "hugo-elate-theme"
     details = [
         ["icon-home", "N/A"],
         ["icon-phone", "N/A"],
-        ["icon-envelope", "N/A"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-envelope", "N/A"]
       ]
 
     name = "Name"
