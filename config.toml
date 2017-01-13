@@ -43,7 +43,7 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    title = "Spring 2017 - Manchester, England"
+    title = "Spring 2017 <br> Manchester, England"
     subtitle = "The epic student hackathon in Manchester <br> & we're making it more accessible than ever."
     url = "#"
 

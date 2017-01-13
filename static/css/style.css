@@ -24,13 +24,13 @@ body {
 }
 
 a {
-  color: #52d3aa;
+  color: #FF9F00;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #52d3aa;
+  color: #FF9F00;
   outline: none;
 }
 
@@ -639,6 +639,10 @@ animation: hero-gradient 50s linear infinite;
   #fh5co-faq, #fh5co-sponsors, #fh5co-counters {
     padding: 4em 0;
   }
+  #fh5co-faq .fh5co-service {
+      display: block;
+      text-align: center;
+  }
 }
 
 #fh5co-faq {
@@ -724,7 +728,7 @@ animation: hero-gradient 50s linear infinite;
   z-index: 2;
   background: rgba(0, 0, 0, 0.7);
 }
-#fh5co-counters:before, #fh5co-counters:after {
+#fh5co-counters:before{
   position: absolute;
   transform: rotate(-1.7deg);
   -ms-transform: rotate(-1.7deg);
@@ -1337,6 +1341,7 @@ animation: hero-gradient 50s linear infinite;
   width: 100%;
   height: 500px;
   position: relative;
+  margin-bottom: 10%;
 }
 @media screen and (max-width: 768px) {
   #map {
