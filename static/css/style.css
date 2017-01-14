@@ -386,34 +386,11 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   z-index: 2;
   -webkit-backface-visibility: hidden;
- background: linear-gradient(132deg, #72a0bf, #32607f);
- background-size: 400% 400%;
+  background-image: url("../images/back1.jpg");
+  background-size: cover;
 
--webkit-animation: hero-gradient 50s linear infinite;
--moz-animation: hero-gradient 50s linear infinite;
--o-animation: hero-gradient 50s linear infinite;
-animation: hero-gradient 50s linear infinite;
 }
-@-webkit-keyframes hero-gradient {
-    0%{background-position:12% 0%}
-    50%{background-position:100% 100%}
-    100%{background-position:0% 12%}
-}
-@-moz-keyframes hero-gradient {
-    0%{background-position:12% 0%}
-    50%{background-position:100% 100%}
-    100%{background-position:0% 12%}
-}
-@-o-keyframes hero-gradient {
-    0%{background-position:12% 0%}
-    50%{background-position:100% 100%}
-    100%{background-position:0% 12%}
-}
-@keyframes hero-gradient {
-    0%{background-position:12% 0%}
-    50%{background-position:100% 100%}
-    100%{background-position:0% 12%}
-}
+
 #fh5co-home, #fh5co-home .text-wrap {
   height: 900px;
 }
@@ -651,9 +628,9 @@ animation: hero-gradient 50s linear infinite;
   color: rgba(255, 255, 255, 0.7);
 
   background: #2a3560;
-  background: -moz-linear-gradient(top,  #2a3560 0%, #4a7cc6 100%);
-  background: -webkit-linear-gradient(top,  #2a3560 0%, #4a7cc6 100%);
-  background: linear-gradient(to bottom,  #2a3560 0%, #4a7cc6 100%);
+  background: -moz-linear-gradient(top,  #3a4570 0%, #4a7cc6 100%);
+  background: -webkit-linear-gradient(top,  #3a4570 0%, #4a7cc6 100%);
+  background: linear-gradient(to bottom,  #3a4570 0%, #4a7cc6 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a3560', endColorstr='#4a7cc6',GradientType=0 );
 }
 #fh5co-faq:before, #fh5co-faq:after {
