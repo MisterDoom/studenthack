@@ -322,17 +322,17 @@
 		}
 	};
 
-	var aboutAnimate = function() {
-		var about = $('#fh5co-about');
-		if ( about.length > 0 ) {	
+	var locationAnimate = function() {
+		var location = $('#fh5co-location');
+		if ( location.length > 0 ) {	
 
-			about.waypoint( function( direction ) {
+			location.waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 
 					setTimeout(function() {
-						about.find('.to-animate').each(function( k ) {
+						location.find('.to-animate').each(function( k ) {
 							var el = $(this);
 							
 							setTimeout ( function () {
@@ -463,7 +463,7 @@
 		sponsorsAnimate();
 		schedAnimate();
 		faqAnimate();
-		aboutAnimate();
+		locationAnimate();
 		countersAnimate();
 		contactAnimate();
 		

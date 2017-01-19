@@ -23,8 +23,8 @@
        		{{ partial "sponsors.html" .}}
        	{{ end }}
 
-	{{ if .Site.Params.about.enable }}
-        	{{ partial "about.html" .}}
+	{{ if .Site.Params.location.enable }}
+        	{{ partial "location.html" .}}
         {{ end }}
 
         {{ if .Site.Params.counters.enable }}

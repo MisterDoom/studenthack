@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: Ubuntu;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
@@ -40,7 +40,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: Ubuntu;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 #fh5co-header #navbar li a {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: Ubuntu;
   color: rgba(10, 45, 64, 0.5);
   position: relative;
   font-size: 19px;
@@ -401,12 +401,13 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 4;
 }
 #fh5co-home .text-inner {
+  padding-top: 100px;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 #fh5co-home .text-inner a {
-  color: white;
+  color: black;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -417,10 +418,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-home .text-inner h1 {
   font-size: 40px;
-  color: white;
+  color: #fdf5e6;
 }
 #fh5co-home .text-inner h2 {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.8);
@@ -525,7 +526,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 #fh5co-intro .fh5co-block h2 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
 }
 #fh5co-intro .fh5co-block:hover > .overlay, #fh5co-intro .fh5co-block:focus > .overlay {
@@ -600,11 +601,11 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
-#fh5co-faq, #fh5co-schedule, #fh5co-counters, #fh5co-sponsors, #fh5co-contact, #fh5co-about {
+#fh5co-faq, #fh5co-schedule, #fh5co-counters, #fh5co-sponsors, #fh5co-contact, #fh5co-location {
   padding: 4em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-faq, #fh5co-schedule, #fh5co-counters, #fh5co-sponsors, #fh5co-contact, #fh5co-about {
+  #fh5co-faq, #fh5co-schedule, #fh5co-counters, #fh5co-sponsors, #fh5co-contact, #fh5co-location {
     padding: 2em 0;
   }
 }
@@ -661,9 +662,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 50px;
 }
 #fh5co-faq h3 {
-  font-size: 24px;
+  font-size: 22px;
   color: #fff;
 }
+
+#fh5co-faq p {
+  font-size: 18px;
+}
+
 #fh5co-faq .icon {
   font-size: 70px;
   margin-bottom: 30px;
@@ -1029,6 +1035,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 1.5em 0;
 }
 #fh5co-contact .fh5co-contact-info li {
+  font-size: 17px;
   position: relative;
   padding: 0;
   margin: 0 0 1.5em 0;
@@ -1044,13 +1051,11 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading {
   float: left;
   width: 100%;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
   clear: both;
 }
 .section-heading h2 {
   margin: 0 0 30px 0;
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 300;
   color: #444;
   text-transform: uppercase;
@@ -1066,7 +1071,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 80px;
   height: 2px;
   background: #52d3aa;
-  left: 0%;
+  left: 0%;section-heading
   margin-left: 0px;
   bottom: 0;
 }
@@ -1088,6 +1093,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .section-heading h3 {
   font-weight: 300;
+  font-size: 20px;
   line-height: 1.5;
   color: #929292;
 }
@@ -1206,33 +1212,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #7f7f7f;
   position: relative;
 }
-#footer .gotop {
-  position: absolute;
-  top: -20px;
-  left: 50%;
-  margin-left: -40px;
-  background: #fff;
-  z-index: 8;
-  width: 80px;
-  height: 80px;
-  font-size: 30px;
-  padding-top: 5px;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
+
+#footer p {
+  font-size: 15px;
 }
-#footer .gotop:hover, #footer .gotop:focus {
-  top: -25px;
-  text-decoration: none !important;
-}
+
 #footer .copyright {
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 0px;
   padding-bottom: 0;
 }

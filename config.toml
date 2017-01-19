@@ -10,7 +10,7 @@ theme = "hugo-elate-theme"
   # Meta
   author = "HackSoc Dev Team"
   description = "StudentHack V website"
-  email = "raulignatus@gmail.com"
+  email = "cristian@hacksoc.com"
   # Navigation
   [params.navigation]
     brand = "StudentHack V"
@@ -18,16 +18,8 @@ theme = "hugo-elate-theme"
     faq = "FAQ"
     schedule = "Schedule"
     sponsors = "Sponsors"
-    about = "About"
-    contact = "Contact"
-
-    # Map Link
-    #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
-    # You can add custom links before or after the default links
-    # Assign a weight to define the order
+    location = "Location"
+    contact = "Sponsor Us"
     
     # prepended links
     #[[menu.prepend]]
@@ -127,23 +119,12 @@ theme = "hugo-elate-theme"
       title = "Sponsor"
       subtitle = "Sponsor"
 
-  # About section
-  [params.about]
-    enable = false
-    title = "About"
-    description = ""
-
-    [[params.about.item]]
-      name = ""
-      position = ""
-      description = ""
-      img = ""
-      alt = ""
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]      
+  # Location section
+  [params.location]
+    enable = true
+    map = true
+    title = "Location"
+    description = "The Landing, Blue, MediaCityUK, M50 2ST, Manchester, UK"  
 
   # Counters section
   [params.counters]
@@ -186,15 +167,13 @@ theme = "hugo-elate-theme"
   # Contact section
   [params.contact]
     enable = true
-    map = true
     title = "Get in touch"
     description = "From any stupid question to the perfect feedback, feel free to contact us"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "N/A"],
-        ["icon-phone", "N/A"],
-        ["icon-envelope", "N/A"]
+        ["icon-home", "The Landing, Blue, MediaCityUK, M50 2ST"],
+        ["icon-envelope", "cristian@hacksoc.com"]
       ]
 
     name = "Name"
