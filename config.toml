@@ -8,7 +8,7 @@ theme = "hugo-elate-theme"
   custom_css = ["css/custom1.css"]
 
   # Meta
-  author = "Raul Ignatus"
+  author = "HackSoc Dev Team"
   description = "StudentHack V website"
   email = "raulignatus@gmail.com"
   # Navigation
@@ -116,7 +116,7 @@ theme = "hugo-elate-theme"
 
   # Sponsors section
   [params.sponsors]
-    enable = true
+    enable = false
     title = "Sponsors"
     description = "They made it possible!"
     footertext = "We Thank you!"
@@ -147,7 +147,7 @@ theme = "hugo-elate-theme"
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
 
@@ -206,4 +206,4 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a> <br> Edited By  HackSoc Dev Team'

@@ -10,7 +10,7 @@
     <body>
         {{ partial "nav.html" .}}
         {{ partial "hero.html" .}}
-		
+
 	{{ if .Site.Params.faq.enable }}
         	{{ partial "faq.html" .}}
 	{{ end }}
@@ -27,9 +27,9 @@
         	{{ partial "about.html" .}}
         {{ end }}
 
-	{{ if .Site.Params.counters.enable }}
+        {{ if .Site.Params.counters.enable }}
         	{{ partial "counters.html" .}}
-        {{ end }}
+        {{ end }}	
 
 	{{ if .Site.Params.contact.enable }}
         	{{ partial "contact.html" .}}
