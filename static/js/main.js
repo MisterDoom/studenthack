@@ -288,7 +288,7 @@
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 					var sec = faq.find('.to-animate').length,
-						sec = parseInt((sec * 200) + 400);
+						sec = parseInt((sec * 100) + 200);
 
 					setTimeout(function() {
 						faq.find('.to-animate').each(function( k ) {

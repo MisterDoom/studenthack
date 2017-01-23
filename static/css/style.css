@@ -965,7 +965,37 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-sponsors .fh5co-project-item:hover h2, #fh5co-sponsors .fh5co-project-item:hover span, #fh5co-sponsors .fh5co-project-item:focus h2, #fh5co-sponsors .fh5co-project-item:focus span {
   text-decoration: none !important;
 }
+#fh5co-location {
+  overflow: hidden;
+  position: relative;
+  color: rgba(255, 255, 255, 0.8);
+background: rgb(29,34,42);
+background: -moz-linear-gradient(top, rgba(29,34,42,1) 1%, rgba(44,45,47,1) 100%);
+background: -webkit-linear-gradient(top, rgba(29,34,42,1) 1%,rgba(44,45,47,1) 100%);
+background: linear-gradient(to bottom, rgba(29,34,42,1) 1%,rgba(44,45,47,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d222a', endColorstr='#2c2d2f',GradientType=0 );
+}
 
+#fh5co-location .section-heading h2 {
+  color:#dbdbdb;
+}
+#fh5co-location:before {
+  position: absolute;
+  transform: rotate(-1.7deg);
+  -ms-transform: rotate(-1.7deg);
+  -webkit-transform: rotate(-1.7deg);
+  -o-transform: rotate(-1.7deg);
+  -moz-transform: rotate(-1.7deg);
+  background-color: #fff;
+  content: "";
+  z-index: 3;
+  top: 0;
+  margin-top: -35px;
+  display: inline-block;
+  height: 70px;
+  padding: 0;
+  width: 101%;
+}
 .fh5co-person {
   border: 2px solid #f2f2f2;
   padding: 80px 30px 30px 30px;

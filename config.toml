@@ -19,7 +19,7 @@ theme = "hugo-elate-theme"
     schedule = "Schedule"
     sponsors = "Sponsors"
     location = "Location"
-    contact = "Sponsor Us"
+    contact = "Get In Touch"
     
     # prepended links
     #[[menu.prepend]]
@@ -35,7 +35,7 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    title = "Spring 2017 <br> Manchester, England"
+    title = "10-12 March 2017 <br> Manchester, England"
     subtitle = "The epic student hackathon in Manchester <br> & we're making it more accessible than ever."
     url = "#"
 
@@ -168,7 +168,7 @@ theme = "hugo-elate-theme"
   [params.contact]
     enable = true
     title = "Get in touch"
-    description = "From any stupid question to the perfect feedback, feel free to contact us"
+    description = "For any question, feedback or sponsorship proposal, feel free to contact us!"
     
     # Available icons: http://simplelineicons.com/
 
