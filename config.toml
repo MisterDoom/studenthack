@@ -89,11 +89,6 @@ theme = "hugo-elate-theme"
       description = "Yes! We strictly adhere to the <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>Major League Hacking Code of Conduct</a>."      
       icon = "icon-book-open"
 
-    [[params.faq.item]]
-      title = "Wanna Pre-register?"
-      description = "Yes! You can do it right <a href='https://docs.google.com/forms/d/1soQyVObgRUz1TyeQrhe1aGcHU0pZsB99X9UBrrGpuaI/edit'> here</a>." 
-      icon = "icon-like"
-
   # Schedule section
   [params.schedule]
     enable = false 

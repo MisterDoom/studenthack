@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header #navbar li a {
   font-family: Ubuntu;
-  color: rgba(10, 45, 64, 0.8);
+  color: rgba(255, 255, 255, 0.5);
   position: relative;
   font-size: 19px;
   font-weight: 300;
@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 #fh5co-header #navbar li a:hover {
-  color: #000;
+  color: #ffffff;
 }
 #fh5co-header #navbar li a:hover span:before {
   visibility: visible;
@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header #navbar li.active a {
   background: transparent;
   background: none;
-  color: #000;
+  color: #ffffff;
 }
 #fh5co-header #navbar li.active a span:before {
   visibility: visible;
@@ -405,6 +405,8 @@ h1, h2, h3, h4, h5, h6 {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 3px rgba(0, 0, 0, 1), 0px 0px 30px rgba(0, 0, 0, 1);
+
 }
 #fh5co-home .text-inner a {
   color: black;
@@ -649,18 +651,22 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   width: 101%;
 }
+
 #fh5co-faq:before {
   top: 0;
   margin-top: -35px;
 }
+
 #fh5co-faq:after {
   bottom: 0;
   margin-bottom: -35px;
 }
+
 #fh5co-faq .fh5co-service {
   padding-right: 50px;
   padding-left: 50px;
 }
+
 #fh5co-faq h3 {
   font-size: 22px;
   color: #fff;
@@ -672,6 +678,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-faq .icon {
   font-size: 70px;
+  margin-top: 30px;
   margin-bottom: 30px;
   display: -moz-inline-stack;
   display: inline-block;
@@ -689,13 +696,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-counters {
-    /*
   background: #52d3aa;
   overflow: hidden;
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
-  */
   position: relative;
   width: 100%;
   padding: 9em 0 10em 0;
@@ -979,7 +984,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-location .section-heading h2 {
   color:#dbdbdb;
 }
-#fh5co-location:before {
+#fh5co-location:before, #fh5co-location:after {
   position: absolute;
   transform: rotate(-1.7deg);
   -ms-transform: rotate(-1.7deg);
@@ -989,13 +994,22 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
   content: "";
   z-index: 3;
-  top: 0;
-  margin-top: -35px;
   display: inline-block;
   height: 70px;
   padding: 0;
   width: 101%;
 }
+
+#fh5co-location:before {
+  top: 0;
+  margin-top: -35px;
+}
+
+#fh5co-location:after {
+  bottom: 0;
+  margin-bottom: -35px;
+}
+
 .fh5co-person {
   border: 2px solid #f2f2f2;
   padding: 80px 30px 30px 30px;
