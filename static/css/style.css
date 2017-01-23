@@ -969,11 +969,11 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.8);
-background: rgb(29,34,42);
-background: -moz-linear-gradient(top, rgba(29,34,42,1) 1%, rgba(44,45,47,1) 100%);
-background: -webkit-linear-gradient(top, rgba(29,34,42,1) 1%,rgba(44,45,47,1) 100%);
-background: linear-gradient(to bottom, rgba(29,34,42,1) 1%,rgba(44,45,47,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d222a', endColorstr='#2c2d2f',GradientType=0 );
+  background: #1d222a;
+  background: -moz-linear-gradient(top, #1d222a 1%, #2c2d2f 100%);
+  background: -webkit-linear-gradient(top, #1d222a 1%, #2c2d2f 100%);
+  background: linear-gradient(to bottom, #1d222a 1%, #2c2d2f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d222a', endColorstr='#2c2d2f',GradientType=0 );
 }
 
 #fh5co-location .section-heading h2 {
@@ -1418,4 +1418,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d222a', end
   animation-fill-mode: both;
 }
 
+.mlh {
+  display:block;
+  max-width:100px;
+  min-width:60px;
+  position:fixed;
+  right:50px;
+  top:55px;
+  width:10%;
+  z-index:10000;
+}
+@media screen and (max-width: 768px) {
+  .mlh {
+    top:0px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
