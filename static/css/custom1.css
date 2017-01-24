@@ -3,7 +3,7 @@
   background-size: 200px 200px;
   width: 200px;
   height: 200px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   display: inline-block;
 }
 
@@ -67,7 +67,6 @@
   -ms-box-shadow: 0px 5px 0px #07121b;
   -o-box-shadow: 0px 5px 0px #07121b;
   box-shadow: 0px 5px 0px #07121b;
-  color: #fff;
   text-shadow: 1px 1px 1px #07121b;
 }
 

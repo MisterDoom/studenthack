@@ -8,8 +8,8 @@ theme = "hugo-elate-theme"
   custom_css = ["css/custom1.css"]
 
   # Meta
-  author = "HackSoc Dev Team"
-  description = "StudentHack V website"
+  author = "StudentHack V"
+  description = "StudentHack V 2017 - #learn #build #share 10-12 March 2017"
   email = "cristian@hacksoc.com"
   # Navigation
   [params.navigation]
