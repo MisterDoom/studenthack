@@ -288,7 +288,7 @@
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 					var sec = faq.find('.to-animate').length,
-						sec = parseInt((sec * 200) + 400);
+						sec = parseInt((sec * 100) + 200);
 
 					setTimeout(function() {
 						faq.find('.to-animate').each(function( k ) {
@@ -322,17 +322,17 @@
 		}
 	};
 
-	var aboutAnimate = function() {
-		var about = $('#fh5co-about');
-		if ( about.length > 0 ) {	
+	var locationAnimate = function() {
+		var location = $('#fh5co-location');
+		if ( location.length > 0 ) {	
 
-			about.waypoint( function( direction ) {
+			location.waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 
 					setTimeout(function() {
-						about.find('.to-animate').each(function( k ) {
+						location.find('.to-animate').each(function( k ) {
 							var el = $(this);
 							
 							setTimeout ( function () {
@@ -463,7 +463,7 @@
 		sponsorsAnimate();
 		schedAnimate();
 		faqAnimate();
-		aboutAnimate();
+		locationAnimate();
 		countersAnimate();
 		contactAnimate();
 		

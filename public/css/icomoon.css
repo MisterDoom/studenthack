@@ -21,6 +21,11 @@
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+
+	/* Centering Logos on phone */
+	-webkit-margin-left: auto;
+    	-webkit-margin-right: auto;
+    	-webkit-width: 6em
 }
 
 .icon-glass:before {

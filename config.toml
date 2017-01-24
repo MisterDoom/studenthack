@@ -29,8 +29,8 @@ theme = "hugo-elate-theme"
 
     # postpended links
     #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
+    #  url = " "
+    #  name = " "
     #  weight = 10
   
   # Hero section
@@ -61,12 +61,12 @@ theme = "hugo-elate-theme"
 
     [[params.faq.item]]
       title = "I haven't coded much. Should I come?"
-      description = "Hackathons are for beginners. Networking with and seeing awesome hackers in action will expose you to a tremendous amount of knowledge. Amazing suit of industry experts and mentors that are happy to assist you!"      
+      description = "Hackathons are for beginners. Networking with and seeing awesome hackers in action will expose you to a tremendous amount of knowledge. There is an amazing suit of industry experts and mentors that are happy to assist you!"      
       icon = "icon-briefcase"
 
     [[params.faq.item]]
       title = "What should I bring?"
-      description = "Bring your laptop, phone and chargers. Other things to consider: spare clothes, adapters, hardware and a sleeping bag, oh and don't forget your enthusiasm! We are going to provide you with all food, swag, sleeping rooms and drinks you will need."      
+      description = "Bring your laptop, phone and chargers. Other things to consider: spare clothes, adapters, hardware and a sleeping bag, oh and don't forget your enthusiasm! We are going to provide you with all the food, swag, sleeping rooms and the drinks that you will need."      
       icon = "icon-basket-loaded"
 
     [[params.faq.item]]
