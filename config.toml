@@ -10,7 +10,7 @@ theme = "hugo-elate-theme"
   # Meta
   author = "StudentHack V"
   description = "StudentHack V 2017 - #learn #build #share 10-12 March 2017"
-  email = "cristian@hacksoc.com"
+  email = "raulubithu@gmail.com"
   # Navigation
   [params.navigation]
     brand = "StudentHack V"
@@ -116,8 +116,8 @@ theme = "hugo-elate-theme"
 
   # Location section
   [params.location]
-    enable = true
-    map = true
+    enable = false
+    map = false
     title = "Location"
     description = "The Landing, Blue, MediaCityUK, M50 2ST, Manchester, UK"  
 
