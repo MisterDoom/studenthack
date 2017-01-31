@@ -10,7 +10,7 @@ theme = "hugo-elate-theme"
   # Meta
   author = "StudentHack V"
   description = "StudentHack V 2017 - #learn #build #share 10-12 March 2017"
-  email = "raulubithu@gmail.com"
+  email = "hristeaanais@gmail.com"
   # Navigation
   [params.navigation]
     brand = "StudentHack V"
