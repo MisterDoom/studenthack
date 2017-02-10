@@ -71,7 +71,7 @@ theme = "hugo-elate-theme"
 
     [[params.faq.item]]
       title = "I don't have a team. Help?"
-      description = "Don't let that discourage you ― it is actually part of the fun! You will have 3 new friends by the end of the weekend. A team building session will be organized to help you form teams. We encourage everyone to use Devpost to find teammates."      
+      description = "We encourage everybody to form a team with new people, regardless of whether you come with your buddies or not! We will organise a team-building session, where you will meet other participants just like you. Due to logistic restrictions, we ask for the teams to be of 4 people maximum."      
       icon = "icon-people"
 
     [[params.faq.item]]
@@ -116,8 +116,8 @@ theme = "hugo-elate-theme"
 
   # Location section
   [params.location]
-    enable = false
-    map = false
+    enable = true
+    map = true
     title = "Location"
     description = "The Landing, Blue, MediaCityUK, M50 2ST, Manchester, UK"  
 

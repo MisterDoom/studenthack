@@ -345,6 +345,11 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 0px;
   border-radius: 0px;
 }
+
+#navbar ul {
+  margin-right: 110px;
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-header .navbar-default {
     margin-top: 0px;
@@ -1438,7 +1443,7 @@ h1, h2, h3, h4, h5, h6 {
   min-width:60px;
   position:fixed;
   right:50px;
-  top:55px;
+  top:0px;
   width:10%;
   z-index:10000;
 }
