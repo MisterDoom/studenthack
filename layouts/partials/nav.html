@@ -28,6 +28,10 @@
                     <li><a href="#" data-nav-section="sponsors"><span>{{ with .Site.Params.navigation.sponsors }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
 
+                    {{ if .Site.Params.chart.enable }}
+                    <li><a href="#" data-nav-section="chart"><span>{{ with .Site.Params.navigation.chart }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    {{ end }}
+
                     {{ if .Site.Params.location.enable }}
                     <li><a href="#" data-nav-section="location"><span>{{ with .Site.Params.navigation.location }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
