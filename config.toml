@@ -18,6 +18,7 @@ theme = "hugo-elate-theme"
     faq = "FAQ"
     schedule = "Schedule"
     sponsors = "Sponsors"
+    chart = "Attendance"
     location = "Location"
     contact = "Get In Touch"
     
@@ -215,6 +216,11 @@ theme = "hugo-elate-theme"
       alt = "Image2"
       title = "Sponsor"
       subtitle = "Sponsor"
+
+  # Chart section
+  [params.chart]
+    enable = true
+    title = "Registered"
 
   # Location section
   [params.location]

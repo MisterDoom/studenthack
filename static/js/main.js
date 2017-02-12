@@ -322,6 +322,33 @@
 		}
 	};
 
+    var chartAnimate = function() {
+        var chart = $('#fh5co-bar-chart');
+        if ( chart.length > 0 ) {
+
+            chart.waypoint( function( direction ) {
+
+                if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+                    setTimeout(function() {
+                        chart.find('.to-animate').each(function( k ) {
+                            var el = $(this);
+
+                            setTimeout ( function () {
+                                el.addClass('fadeInUp animated');
+                            },  k * 200, 'easeInOutExpo' );
+
+                        });
+                    }, 200);
+
+                    $(this.element).addClass('animated');
+
+                }
+            } , { offset: '80%' } );
+
+        }
+    };
+
 	var locationAnimate = function() {
 		var location = $('#fh5co-location');
 		if ( location.length > 0 ) {	
@@ -463,6 +490,7 @@
 		sponsorsAnimate();
 		schedAnimate();
 		faqAnimate();
+		chartAnimate();
 		locationAnimate();
 		countersAnimate();
 		contactAnimate();
