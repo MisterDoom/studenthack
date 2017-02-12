@@ -10,10 +10,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="row row-bottom-padded-sm">
-			{{ range .Site.Params.sponsors.row }}
-				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="images/{{ .img }}" class="fh5co-project-item image-popup to-animate">
+			<div class="row row-bottom-padded-sm platinum-sponsor">
+                        <h1> Platinum </h1>
+                        <div class="col-md-3"></div>
+			{{ range .Site.Params.sponsors.platinum }}
+				<div class="col-md-6 col-sm-4 col-xxs-12">
+					<a href="images/{{ .img }}" class="fh5co-sponsor-item image-popup to-animate">
 						<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>{{ .title }}</h2>
@@ -24,7 +26,71 @@
 
 				<div class="clearfix visible-sm-block"></div>
 			{{ end }}
-			</div>
+                        </div>
+			<div class="row row-bottom-padded-sm track-sponsor">
+                        <h1> Track </h1>
+                        {{ range .Site.Params.sponsors.track }}
+				<div class="col-md-6 col-sm-4 col-xxs-12">
+					<a href="images/{{ .img }}" class="fh5co-sponsor-item image-popup to-animate">
+						<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>{{ .title }}</h2>
+						<span>{{ .subtitle }}</span>
+						</div>
+					</a>
+				</div>				
+
+				<div class="clearfix visible-sm-block"></div>
+			{{ end }}
+                        </div>
+			<div class="row row-bottom-padded-sm gold-sponsor">
+                        <h1> Gold </h1>
+                        {{ range .Site.Params.sponsors.gold }}
+				<div class="col-md-6 col-sm-4 col-xxs-12">
+					<a href="images/{{ .img }}" class="fh5co-sponsor-item image-popup to-animate">
+						<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>{{ .title }}</h2>
+						<span>{{ .subtitle }}</span>
+						</div>
+					</a>
+				</div>				
+
+				<div class="clearfix visible-sm-block"></div>
+			{{ end }}
+                        </div>
+			<div class="row row-bottom-padded-sm silver-sponsor">
+                        <h1> Silver </h1>
+                        {{ range .Site.Params.sponsors.silver }}
+				<div class="col-md-6 col-sm-4 col-xxs-12">
+					<a href="images/{{ .img }}" class="fh5co-sponsor-item image-popup to-animate">
+						<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>{{ .title }}</h2>
+						<span>{{ .subtitle }}</span>
+						</div>
+					</a>
+				</div>				
+
+				<div class="clearfix visible-sm-block"></div>
+			{{ end }}
+                        </div>
+			<div class="row row-bottom-padded-sm bronze-sponsor">
+                        <h1> Bronze </h1>
+                        {{ range .Site.Params.sponsors.bronze }}
+				<div class="col-md-6 col-sm-4 col-xxs-12">
+					<a href="images/{{ .img }}" class="fh5co-sponsor-item image-popup to-animate">
+						<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>{{ .title }}</h2>
+						<span>{{ .subtitle }}</span>
+						</div>
+					</a>
+				</div>				
+
+				<div class="clearfix visible-sm-block"></div>
+			{{ end }}
+                        </div>
 			<div class="row">
 				<div class="col-md-12 text-center to-animate">
 					<p>{{ .Site.Params.sponsors.footertext | markdownify }}</p>

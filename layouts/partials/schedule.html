@@ -3,27 +3,51 @@
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
 					<h2 class="to-animate">{{ with .Site.Params.schedule.title }}{{ . | markdownify }}{{ end }}</h2>
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>{{ with .Site.Params.schedule.description }}{{ . | markdownify }}{{ end }}</h3>
-						</div>
-					</div>
 				</div>
 			</div>
 			<div class="row">
-			{{ range .Site.Params.schedule.item }}
-				<div class="col-md-4">
-					<div class="box-testimony">
-						<blockquote class="to-animate-2">
-							<p>{{ .quote | markdownify}}</p>
-						</blockquote>
-						<div class="author to-animate">
-							<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
-							<p>{{ .person | markdownify }}</p>
-						</div>
-					</div>
-				</div>
-			{{ end }}
+			        <div class="col-md-4 to-animate">
+                                        <table cellspacing='0'>
+                                                <caption>Friday</caption>
+                                                <tbody>
+			                        {{ range .Site.Params.schedule.friday }}
+		                                        <tr>
+                                                                <td>{{ .time | markdownify}}</td>
+                                                                <td>{{ .name | markdownify}}</td>
+                                                                <td></td>
+                                                        </tr>
+			                        {{ end }}
+                                                </tbody>
+                                        </table>
+                                </div>
+			        <div class="col-md-4 to-animate text-center">
+                                        <table cellspacing='0'>
+                                                <caption>Saturday</caption>
+                                                <tbody>
+			                        {{ range .Site.Params.schedule.saturday }}
+		                                        <tr>
+                                                                <td>{{ .time | markdownify}}</td>
+                                                                <td>{{ .name | markdownify}}</td>
+                                                                <td></td>
+                                                        </tr>
+			                        {{ end }}
+                                                </tbody>
+                                        </table>
+                                </div>
+			        <div class="col-md-4 to-animate text-center">
+                                        <table cellspacing='0'>
+                                                <caption>Sunday</caption>
+                                                <tbody>
+			                        {{ range .Site.Params.schedule.sunday }}
+		                                        <tr>
+                                                                <td>{{ .time | markdownify}}</td>
+                                                                <td>{{ .name | markdownify}}</td>
+                                                                <td></td>
+                                                        </tr>
+			                        {{ end }}
+                                                </tbody>
+                                        </table>
+                                </div>
 			</div>
 		</div>
 	</section>

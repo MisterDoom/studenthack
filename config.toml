@@ -91,15 +91,87 @@ theme = "hugo-elate-theme"
 
   # Schedule section
   [params.schedule]
-    enable = false 
+    enable = true 
     title = "Schedule"
-    description = "N/A"
 
-    [[params.schedule.item]]
-      quote = "N/A"
-      person = "N/A"
-      img = "person1.jpg"
-      alt = "Person1"
+    [[params.schedule.friday]]
+      time = "18:00"
+      name = "Registration opens"
+
+    [[params.schedule.friday]]
+      time = "19:00"
+      name = "Dinner"
+
+    [[params.schedule.friday]]
+      time = "20:30"
+      name = "Opening ceremony"
+
+    [[params.schedule.friday]]
+      time = "22:00"
+      name = "Hacking starts<br>Team forming session"
+
+
+    [[params.schedule.saturday]]
+      time = "01:00"
+      name = "Night snack"
+
+    [[params.schedule.saturday]]
+      time = "08:00"
+      name = "Breakfast"
+
+    [[params.schedule.saturday]]
+      time = ""
+      name = "-- Workshops --"
+
+    [[params.schedule.saturday]]
+      time = "13:00"
+      name = "Lunch"
+
+    [[params.schedule.saturday]]
+      time = ""
+      name = "-- Workshops --"
+
+    [[params.schedule.saturday]]
+      time = "19:00"
+      name = "Dinner"
+
+    [[params.schedule.saturday]]
+      time = "21:00"
+      name = "MLH event"
+
+
+    [[params.schedule.sunday]]
+      time = "00:00"
+      name = "Midnight snack"
+
+    [[params.schedule.sunday]]
+      time = "08:00"
+      name = "Breakfast"
+
+    [[params.schedule.sunday]]
+      time = "10:00"
+      name = "Hacking ends"
+
+    [[params.schedule.sunday]]
+      time = "11:00"
+      name = "Judging starts"
+
+    [[params.schedule.sunday]]
+      time = "13:30"
+      name = "Judging ends"
+
+    [[params.schedule.sunday]]
+      time = "14:00"
+      name = "Final presentations"
+
+    [[params.schedule.sunday]]
+      time = "16:00"
+      name = "Closing ceremony"
+
+    [[params.schedule.sunday]]
+      time = "17:00"
+      name = "End of the event"
+
 
   # Sponsors section
   [params.sponsors]
@@ -108,7 +180,37 @@ theme = "hugo-elate-theme"
     description = "They made it possible!"
     footertext = "We Thank you!"
 
-    [[params.sponsors.row]]
+    [[params.sponsors.platinum]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Sponsor"
+      subtitle = "Sponsor"
+
+    [[params.sponsors.track]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Sponsor"
+      subtitle = "Sponsor"
+      
+    [[params.sponsors.track]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Sponsor"
+      subtitle = "Sponsor"
+
+    [[params.sponsors.gold]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Sponsor"
+      subtitle = "Sponsor"
+
+    [[params.sponsors.silver]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Sponsor"
+      subtitle = "Sponsor"
+
+    [[params.sponsors.bronze]]
       img = "work_1.jpg"
       alt = "Image2"
       title = "Sponsor"
