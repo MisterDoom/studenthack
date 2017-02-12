@@ -112,8 +112,8 @@ theme = "hugo-elate-theme"
 
 
     [[params.schedule.saturday]]
-      time = "01:00"
-      name = "Night snack"
+      time = "00:00"
+      name = "Midnight snack"
 
     [[params.schedule.saturday]]
       time = "08:00"
@@ -157,8 +157,8 @@ theme = "hugo-elate-theme"
       name = "Judging starts"
 
     [[params.schedule.sunday]]
-      time = "13:30"
-      name = "Judging ends"
+      time = "13:00"
+      name = "Lunch"
 
     [[params.schedule.sunday]]
       time = "14:00"
