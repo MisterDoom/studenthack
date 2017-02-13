@@ -1,0 +1,30 @@
+	<section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_2.jpg);" data-stellar-background-ratio="0.5">
+		<div class="gradient"></div>
+		<div class="container">
+		        <div class="text-wrap">
+		            <div class="text-inner">
+                            <p class="to-animate"><a href="#" class="logo"></a></p>
+                            <p class="to-animate"><a href="https://www.eventbrite.co.uk/e/studenthack-v-tickets-31383327377" class="btn-push navy">Tickets</a></p> 
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+
+			    			        <h1 class="to-animate">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</h1>
+						        <h2 class="to-animate">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+                <div class="row">
+			{{ range .Site.Params.counters.item }}
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon {{ .icon }} to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="{{ .from }}" data-to="{{ .to }}" data-speed="{{ .speed }}" data-refresh-interval="{{ .interval }}">{{ .to }}</span>
+						<span class="fh5co-counter-label">{{ .description }}</span>
+					</div>
+				</div>
+			{{ end }}
+			</div>
+		</div>
+		<div class="slant"></div>
+	</section>
