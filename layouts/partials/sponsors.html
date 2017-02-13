@@ -12,7 +12,7 @@
 			</div>
                         {{ if .Site.Params.sponsors.enPlat }}
 			        <div class="row row-bottom-padded-sm platinum-sponsor">
-                                <p> Platinum </p>
+                                    <p class="to-animate"> Platinum </p>
                                 <div class="col-md-3"></div>
 			        {{ range .Site.Params.sponsors.platinum }}
 			        	<div class="col-md-6 col-sm-4 col-xxs-12">
@@ -27,7 +27,7 @@
                         {{ end }}
                         {{ if .Site.Params.sponsors.enHard }}
                                 <div class="row row-bottom-padded-sm hardware-sponsor text-center">
-                                <p> Hardware Sponsor </p>
+                                <p class="to-animate"> Hardware Sponsor </p>
                                 <div class="col-md-3"></div>
 			        {{ range .Site.Params.sponsors.hardware }}
 			        	<div class="col-md-6 col-sm-4 col-xxs-12">
@@ -42,7 +42,7 @@
 			{{ end }}
                         {{ if .Site.Params.sponsors.enTrac }}
 			        <div class="row row-bottom-padded-sm track-sponsor">
-                                <p> Track </p>
+                                <p class="to-animate"> Track </p>
                                 {{ range .Site.Params.sponsors.track }}
 			        	<div class="col-md-6 col-sm-4 col-xxs-12">
 			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
@@ -56,7 +56,7 @@
 			{{ end }}
                         {{ if .Site.Params.sponsors.enGold }}
 			        <div class="row row-bottom-padded-sm gold-sponsor">
-                                <p> Gold </p>
+                                <p class="to-animate"> Gold </p>
                                 {{ range .Site.Params.sponsors.gold }}
 			        	<div class="col-md-6 col-sm-4 col-xxs-12">
 			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
@@ -70,7 +70,7 @@
 			{{ end }}
                         {{ if .Site.Params.sponsors.enSilv }}
 		                <div class="row row-bottom-padded-sm silver-sponsor text-center">
-                                <p> Silver </p>
+                                <p class="to-animate"> Silver </p>
                                 <div class="col-md-4"></div>
                                 {{ range .Site.Params.sponsors.silver }}
 			        	<div class="col-md-4 col-sm-4 col-xxs-12">
@@ -85,7 +85,7 @@
 			{{ end }}
                         {{ if .Site.Params.sponsors.enBron }}
 			        <div class="row row-bottom-padded-sm bronze-sponsor text-center">
-                                <p> Bronze </p>
+                                <p class="to-animate"> Bronze </p>
                                 {{ range .Site.Params.sponsors.bronze }}
 			        	<div class="col-md-4 col-sm-4 col-xxs-12">
 			        		<a href="{{ .link }}" class="fh5co-sponsor-item to-animate">
