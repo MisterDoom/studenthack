@@ -873,6 +873,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
   color:#fff;
 }
 
+#barchart-desktop-container{
+  display: block
+}
+#barchart-mobile-container{
+  display: none
+}
+
+@media screen and (max-width: 768px){
+  #barchart-desktop-container{
+    display: none
+  }
+  #barchart-mobile-container{
+    display: block
+  }
+}
+
 #fh5co-sponsors {
   overflow: hidden;
   position: relative;

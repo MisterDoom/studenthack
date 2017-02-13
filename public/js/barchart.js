@@ -24,8 +24,9 @@ $(function () {
         ],
         chartColor: "#FFFFFF"
     };
-    var chartCanvas = $("#barchart");
-    var chart = new Chart(chartCanvas, {
+    var chartCanvasDesktop = $("#barchart-desktop");
+    var chartCanvasMobile = $("#barchart-mobile");
+    var chartDesktop = new Chart(chartCanvasDesktop, {
         type: 'bar',
         data: {
             labels: chartItems.labels,
@@ -37,6 +38,48 @@ $(function () {
             ]
         },
         options: {
+            responsive: true,
+            legend: {
+                display: false
+            },
+            scales: {
+                xAxes: [{
+                    color: chartItems.chartColor,
+                    gridLines: {
+                        zeroLineColor: chartItems.chartColor,
+                        color: "rgba(255,255,255,0)"
+                    },
+                    ticks: {
+                        fontColor: chartItems.chartColor
+                    }
+                }],
+                yAxes: [{
+                    color: chartItems.chartColor,
+                    gridLines:{
+                        zeroLineColor: chartItems.chartColor,
+                        color: "rgba(255,255,255,0)"
+                    },
+                    ticks: {
+                        fontColor: chartItems.chartColor,
+                        beginAtZero: true
+                    }
+                }]
+            }
+        }
+    });
+    var chartMobile = new Chart(chartCanvasMobile, {
+        type: 'horizontalBar',
+        data: {
+            labels: chartItems.labels,
+            datasets: [
+                {
+                    data: chartItems.barHeights,
+                    backgroundColor: chartItems.colours,
+                }
+            ]
+        },
+        options: {
+            responsive: true,
             legend: {
                 display: false
             },
