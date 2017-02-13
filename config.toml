@@ -176,7 +176,13 @@ theme = "hugo-elate-theme"
 
   # Sponsors section
   [params.sponsors]
-    enable = false
+    enable = true
+    enPlat = false
+    enHard = true
+    enTrac = false
+    enGold = false
+    enSilv = true
+    enBron = true
     title = "Sponsors"
     description = "They made it possible!"
     footertext = "We Thank you!"
@@ -184,38 +190,38 @@ theme = "hugo-elate-theme"
     [[params.sponsors.platinum]]
       img = "work_1.jpg"
       alt = "Image2"
-      title = "Sponsor"
-      subtitle = "Sponsor"
+
+    [[params.sponsors.hardware]]
+      img = "google.png"
+      alt = "Google"
+      link = "https://get.google.com/tango/"
 
     [[params.sponsors.track]]
       img = "work_1.jpg"
       alt = "Image2"
-      title = "Sponsor"
-      subtitle = "Sponsor"
       
     [[params.sponsors.track]]
       img = "work_1.jpg"
       alt = "Image2"
-      title = "Sponsor"
-      subtitle = "Sponsor"
 
     [[params.sponsors.gold]]
       img = "work_1.jpg"
       alt = "Image2"
-      title = "Sponsor"
-      subtitle = "Sponsor"
 
     [[params.sponsors.silver]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Sponsor"
-      subtitle = "Sponsor"
+      img = "twilio.png"
+      alt = "Twilio"
+      link = "https://www.twilio.com/"
 
     [[params.sponsors.bronze]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Sponsor"
-      subtitle = "Sponsor"
+      img = "codethink.png"
+      alt = "codethink"
+      link = "https://www.codethink.co.uk/"
+    
+    [[params.sponsors.bronze]]
+      img = "noma.png"
+      alt = "noma"
+      link = "http://www.noma-manchester.com"
 
   # Chart section
   [params.chart]
@@ -227,7 +233,7 @@ theme = "hugo-elate-theme"
     enable = true
     map = true
     title = "Location"
-    description = "The Landing, Blue, MediaCityUK, M50 2ST, Manchester, UK"  
+    description = "The Landing, Blue, MediaCityUK, M50 2ST, Manchester, UK" 
 
   # Counters section
   [params.counters]
