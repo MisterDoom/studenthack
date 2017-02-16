@@ -223,7 +223,7 @@ theme = "hugo-elate-theme"
       alt = "noma"
       link = "http://www.noma-manchester.com"
 
-    [[params.sponsors.partener]]
+    [[params.sponsors.partner]]
       img = "monzo.png"
       alt = "monzo"
       link = "https://monzo.com/"
