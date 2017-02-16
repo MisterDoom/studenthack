@@ -6,13 +6,13 @@ $(function () {
         labels: [
             "University of Manchester",
             "University of Edinburgh",
-            "University of Salford",
             "Manchester Metropolitan University",
+            "University of Salford",
+            "Politehnica University of Timișoara",
             "University of Birmingham",
-            "City University of London",
-            "University of Sussex"
+            "City University of London"
         ],
-        barHeights: [191, 41, 21, 11, 9, 8, 8],
+        barHeights: [237, 59, 24, 22, 17, 13, 10],
         colours: [
             'rgba(255, 255, 255, 1)',
             'rgba(255, 255, 255, 1)',

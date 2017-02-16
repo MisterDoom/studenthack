@@ -183,9 +183,9 @@ theme = "hugo-elate-theme"
     enGold = false
     enSilv = true
     enBron = true
+    enPart = true
     title = "Sponsors"
     description = "They made it possible!"
-    footertext = "We Thank you!"
 
     [[params.sponsors.platinum]]
       img = "work_1.jpg"
@@ -222,6 +222,11 @@ theme = "hugo-elate-theme"
       img = "noma.png"
       alt = "noma"
       link = "http://www.noma-manchester.com"
+
+    [[params.sponsors.partener]]
+      img = "monzo.png"
+      alt = "monzo"
+      link = "https://monzo.com/"
 
   # Chart section
   [params.chart]
