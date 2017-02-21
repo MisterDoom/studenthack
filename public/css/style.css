@@ -894,11 +894,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
   position: relative;
   color: rgba(255, 255, 255, 0.8);
 
-  background: #497bc6;
-  background: -moz-linear-gradient(top,  #497bc6 0%, #92c8f1 100%);
-  background: -webkit-linear-gradient(top,  #497bc6 0%,#92c8f1 100%);
-  background: linear-gradient(to bottom,  #497bc6 0%,#92c8f1 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#497bc6', endColorstr='#92c8f1',GradientType=0 );
+  background: rgb(255, 255, 255);
+
+}#fh5co-sponsors .section-heading {
+  margin-bottom:50px;
+}
+#fh5co-sponsors .section-heading h3 {
+  color: rgba(72, 85, 106, 1);
+}
+#fh5co-sponsors .footertext p {
+    color: #48556A;
+    margin-top: 50px;
+}
+#fh5co-sponsors .hardware-sponsor p {
+  font-family: Ubuntu;
+  font-size: 20px;
+  color: #1B2B46;
+}
+#fh5co-sponsors .silver-sponsor p {
+  font-family: Ubuntu;
+  font-size: 30px;
+  color: #1B2B46;
+}
+#fh5co-sponsors .bronze-sponsor p {
+  font-family: Ubuntu;
+  font-size: 25px;
+  color: #1B2B46;
+}
+#fh5co-sponsors .partner-sponsor p {
+  font-family: Ubuntu;
+  font-size: 20px;
+  color: #1B2B46;
 }
 #fh5co-sponsors a {
   color: rgba(255, 255, 255, 0.5);
@@ -931,22 +957,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
   margin-bottom: -35px;
 }
 #fh5co-sponsors .section-heading h2 {
-  color: #fff;
+  color: #021432;
 }
-#fh5co-sponsors .section-heading h2:after {
+#fh5co-sponsors .section-heading h2.left-border:after {
   background: rgba(255, 255, 255, 0.3);
 }
-#fh5co-sponsors .section-heading h3 {
-  color: rgba(255, 255, 255, 0.8);
-}
 #fh5co-sponsors .fh5co-sponsor-item {
-  display: block;
+  display: inline;
   width: 100%;
   position: relative;
   top: 0;
   background: #fff;
   overflow: hidden;
   z-index: 9;
+  margin-top: 30px;
   margin-bottom: 30px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -956,41 +980,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-#fh5co-sponsors .fh5co-sponsor-item img {
-  z-index: 8;
-  opacity: 1;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-#fh5co-sponsors .fh5co-sponsor-item .fh5co-text {
-  padding: 10px 20px;
-}
 #fh5co-sponsors .fh5co-sponsor-item .fh5co-text h2, #fh5co-sponsors .fh5co-sponsor-item .fh5co-text span {
   text-decoration: none !important;
 }
-#fh5co-sponsors .fh5co-sponsor-item .fh5co-text h2 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 0;
-}
-#fh5co-sponsors .fh5co-sponsor-item .fh5co-text span {
-  color: #b3b3b3;
-  font-size: 16px;
-  font-weight: 400;
-}
-#fh5co-sponsors .fh5co-sponsor-item:hover, #fh5co-sponsors .fh5co-sponsor-item:focus {
-  -webkit-box-shadow: 7px 14px 42px 3px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 7px 14px 42px 3px rgba(0, 0, 0, 0.4);
-  -ms-box-shadow: 7px 14px 42px 3px rgba(0, 0, 0, 0.4);
-  -o-box-shadow: 7px 14px 42px 3px rgba(0, 0, 0, 0.4);
-  box-shadow: 7px 14px 42px 3px rgba(0, 0, 0, 0.4);
-  text-decoration: none;
-  top: -15px;
-}
-#fh5co-sponsors .fh5co-sponsor-item:hover img, #fh5co-sponsors .fh5co-sponsor-item:focus img {
-  opacity: .7;
-}
+
 #fh5co-sponsors .fh5co-sponsor-item:hover h2, #fh5co-sponsors .fh5co-sponsor-item:hover span, #fh5co-sponsors .fh5co-sponsor-item:focus h2, #fh5co-sponsors .fh5co-sponsor-item:focus span {
   text-decoration: none !important;
 }
@@ -1139,7 +1132,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
   width: 80px;
   height: 2px;
   background: #FFC966;
-  left: 0%;section-heading
+  left: 0%;
   margin-left: 0px;
   bottom: 0;
 }
