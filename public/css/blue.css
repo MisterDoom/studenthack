@@ -279,49 +279,49 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-#fh5co-our-faq,
+#fh5co-our-services,
 #fh5co-about-us,
 #fh5co-features,
-#fh5co-schedule,
+#fh5co-testimonials,
 #fh5co-pricing,
 #fh5co-press {
   padding: 7em 0;
 }
 @media screen and (max-width: 480px) {
-  #fh5co-our-faq,
+  #fh5co-our-services,
   #fh5co-about-us,
   #fh5co-features,
-  #fh5co-schedule,
+  #fh5co-testimonials,
   #fh5co-pricing,
   #fh5co-press {
     padding: 5em 0;
   }
 }
 
-#fh5co-schedule {
+#fh5co-testimonials {
   background: #2185d5;
 }
-#fh5co-schedule .section-heading h2 {
+#fh5co-testimonials .section-heading h2 {
   color: white;
 }
-#fh5co-schedule .section-heading h2:after {
+#fh5co-testimonials .section-heading h2:after {
   background: rgba(255, 255, 255, 0.2);
 }
-#fh5co-schedule .section-heading .subtext h3 {
+#fh5co-testimonials .section-heading .subtext h3 {
   color: rgba(255, 255, 255, 0.5);
 }
-#fh5co-schedule .box-testimony {
+#fh5co-testimonials .box-testimony {
   margin-bottom: 2em;
   float: left;
 }
-#fh5co-schedule .box-testimony a {
+#fh5co-testimonials .box-testimony a {
   color: rgba(255, 255, 255, 0.5);
 }
-#fh5co-schedule .box-testimony a:hover, #fh5co-schedule .box-testimony a:focus, #fh5co-schedule .box-testimony a:active {
+#fh5co-testimonials .box-testimony a:hover, #fh5co-testimonials .box-testimony a:focus, #fh5co-testimonials .box-testimony a:active {
   color: white;
   text-decoration: none;
 }
-#fh5co-schedule .box-testimony blockquote {
+#fh5co-testimonials .box-testimony blockquote {
   padding-left: 0;
   border-left: none;
   padding: 40px;
@@ -332,7 +332,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
-#fh5co-schedule .box-testimony blockquote:after {
+#fh5co-testimonials .box-testimony blockquote:after {
   content: "";
   position: absolute;
   top: 100%;
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
 }
-#fh5co-schedule .box-testimony blockquote .quote {
+#fh5co-testimonials .box-testimony blockquote .quote {
   position: absolute;
   top: 0;
   left: 10px;
@@ -360,20 +360,20 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#fh5co-schedule .box-testimony blockquote .quote > span {
+#fh5co-testimonials .box-testimony blockquote .quote > span {
   display: table-cell;
   vertical-align: middle;
 }
-#fh5co-schedule .box-testimony blockquote p {
+#fh5co-testimonials .box-testimony blockquote p {
   font-style: italic;
 }
-#fh5co-schedule .box-testimony .author {
+#fh5co-testimonials .box-testimony .author {
   line-height: 20px;
   color: white;
   font-size: 20px;
   margin-left: 20px;
 }
-#fh5co-schedule .box-testimony .author .subtext {
+#fh5co-testimonials .box-testimony .author .subtext {
   display: block;
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
@@ -448,12 +448,12 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-#fh5co-our-faq,
+#fh5co-our-services,
 #fh5co-press {
   background: #f4f4f4;
 }
 
-#fh5co-our-faq .box {
+#fh5co-our-services .box {
   padding: 30px;
   background: #fff;
   text-align: center;
@@ -462,12 +462,12 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-our-faq .box {
+  #fh5co-our-services .box {
     min-height: inherit;
     margin-bottom: 60px;
   }
 }
-#fh5co-our-faq .box .icon {
+#fh5co-our-services .box .icon {
   width: 85px;
   height: 85px;
   margin: 0 auto;
@@ -482,35 +482,35 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   text-align: center;
 }
-#fh5co-our-faq .box .icon > span {
+#fh5co-our-services .box .icon > span {
   display: table-cell;
   vertical-align: middle;
 }
-#fh5co-our-faq .box .icon > span i {
+#fh5co-our-services .box .icon > span i {
   font-size: 40px;
   color: #fff !important;
   margin: 0;
   padding: 0;
 }
-#fh5co-our-faq .box .icon.colored-1 {
+#fh5co-our-services .box .icon.colored-1 {
   background: #2aaf67;
 }
-#fh5co-our-faq .box .icon.colored-2 {
+#fh5co-our-services .box .icon.colored-2 {
   background: #00bff3;
 }
-#fh5co-our-faq .box .icon.colored-3 {
+#fh5co-our-services .box .icon.colored-3 {
   background: #f26522;
 }
-#fh5co-our-faq .box .icon.colored-4 {
+#fh5co-our-services .box .icon.colored-4 {
   background: #e52b50;
 }
-#fh5co-our-faq .box .icon.colored-5 {
+#fh5co-our-services .box .icon.colored-5 {
   background: #2fc5cc;
 }
-#fh5co-our-faq .box .icon.colored-6 {
+#fh5co-our-services .box .icon.colored-6 {
   background: #6173f4;
 }
-#fh5co-our-faq .box .step-number {
+#fh5co-our-services .box .step-number {
   font-size: 16px;
   display: block;
   color: #d1d1d1;
@@ -519,7 +519,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   margin-bottom: 10px;
 }
-#fh5co-our-faq .box h3 {
+#fh5co-our-services .box h3 {
   margin: 0 0 20px 0;
   padding: 0;
   font-weight: 400;

@@ -906,9 +906,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
     color: #48556A;
     margin-top: 50px;
 }
-#fh5co-sponsors .hardware-sponsor p {
+#fh5co-sponsors .venue-sponsor p {
   font-family: Ubuntu;
-  font-size: 20px;
+  font-size: 45px;
+  color: #1B2B46;
+}
+#fh5co-sponsors .platinum-sponsor p {
+  font-family: Ubuntu;
+  font-size: 45px;
+  color: #1B2B46;
+}
+#fh5co-sponsors .track-sponsor p {
+  font-family: Ubuntu;
+  font-size: 40px;
+  color: #1B2B46;
+}
+#fh5co-sponsors .gold-sponsor p {
+  font-family: Ubuntu;
+  font-size: 35px;
   color: #1B2B46;
 }
 #fh5co-sponsors .silver-sponsor p {
@@ -919,6 +934,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 #fh5co-sponsors .bronze-sponsor p {
   font-family: Ubuntu;
   font-size: 25px;
+  color: #1B2B46;
+}
+#fh5co-sponsors .hardware-sponsor p {
+  font-family: Ubuntu;
+  font-size: 20px;
   color: #1B2B46;
 }
 #fh5co-sponsors .partner-sponsor p {
@@ -963,10 +983,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
   background: rgba(255, 255, 255, 0.3);
 }
 #fh5co-sponsors .fh5co-sponsor-item {
-  display: inline;
+  display: inline-block;
   width: 100%;
+  height: 100%;
+  vertical-align:middle;
   position: relative;
-  top: 0;
   background: #fff;
   overflow: hidden;
   z-index: 9;

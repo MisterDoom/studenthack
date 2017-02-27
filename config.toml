@@ -177,36 +177,46 @@ theme = "hugo-elate-theme"
   # Sponsors section
   [params.sponsors]
     enable = true
-    enPlat = false
+    enVenu = true
+    enPlat = true
     enHard = true
-    enTrac = false
-    enGold = false
+    enTrac = true
+    enGold = true
     enSilv = true
     enBron = true
     enPart = true
     title = "Sponsors"
     description = "They made it possible!"
 
+    [[params.sponsors.venue]]
+      img = "landing.png"
+      alt = "The Landing"
+      link = "http://www.thelanding.org.uk/"
+
     [[params.sponsors.platinum]]
-      img = "work_1.jpg"
-      alt = "Image2"
+      img = "riot.png"
+      alt = "Riot"
+      link = "https://riot.im"
 
-    [[params.sponsors.hardware]]
-      img = "google.png"
-      alt = "Google"
-      link = "https://get.google.com/tango/"
+    [[params.sponsors.platinum]]
+      img = "matrix.png"
+      alt = "Matrix"
+      link = "https://matrix.org"
 
     [[params.sponsors.track]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      
+      img = "accenture.png"
+      alt = "Accenture"
+      link = "https://www.accenture.com"
+
     [[params.sponsors.track]]
-      img = "work_1.jpg"
-      alt = "Image2"
+      img = "webapps.png"
+      alt = "WebApplicationsUk"
+      link = "https://www.webapplicationsuk.com"
 
     [[params.sponsors.gold]]
-      img = "work_1.jpg"
-      alt = "Image2"
+      img = "cakesol.png"
+      alt = "Cake Solutions"
+      link = "http://www.cackesolutions.net"
 
     [[params.sponsors.silver]]
       img = "twilio.png"
@@ -215,18 +225,43 @@ theme = "hugo-elate-theme"
 
     [[params.sponsors.bronze]]
       img = "codethink.png"
-      alt = "codethink"
+      alt = "Codethink"
       link = "https://www.codethink.co.uk/"
     
     [[params.sponsors.bronze]]
       img = "noma.png"
-      alt = "noma"
-      link = "http://www.noma-manchester.com"
+      alt = "Noma"
+      link = "https://www.noma-manchester.com"
+
+    [[params.sponsors.bronze]]
+      img = "telcom.png"
+      alt = "Telcom"
+      link = "https://telcom.io"
+
+    [[params.sponsors.bronze]]
+      img = ""
+      alt = ""
+      link = ""
+
+    [[params.sponsors.bronze]]
+      img = "morgans.png"
+      alt = "Morgan Stanley"
+      link = "https://www.morganstanley.com/"
+
+    [[params.sponsors.hardware]]
+      img = "google.png"
+      alt = "Google"
+      link = "https://get.google.com/tango/"
 
     [[params.sponsors.partner]]
       img = "monzo.png"
-      alt = "monzo"
+      alt = "Monzo"
       link = "https://monzo.com/"
+
+    [[params.sponsors.partner]]
+      img = "namebox.png"
+      alt = "Namebox"
+      link = "https://www.namebox.ro/"
 
   # Chart section
   [params.chart]
