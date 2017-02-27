@@ -180,38 +180,38 @@ theme = "hugo-elate-theme"
     title = "Tracks"
 
     [[params.tracks.item]]
-      title = "Gaming"
-      description = ""
-      icon = "icon-game-controller"
-
-    [[params.tracks.item]]
       title = "Fintech"
-      description = ""
+      description = "With the aid of technology, challenge the current status quo set by the traditional financial sector. Manage payment, provide insurance and trading advice, and automate tax returns. The possibilities are endless and only more money awaits! Barclays realised those potentials and are offering dedicated expertise advise and full support to this track. Join this track."
       icon = "icon-credit-card"
 
     [[params.tracks.item]]
+      title = "Gaming"
+      description = "Want to spend a weekend creating a game? The “Gaming” track brings together hackers who are passionate about games to develop, design, and create games. WebAppsUK is aiming to foster your creative side and they’re fully backing this track with dedicated mentors to help you take on our Gaming challenge and create the next Half-life game and become the StudentHack’s Gaming Challenge Winner."
+      icon = "icon-game-controller"
+
+    [[params.tracks.item]]
       title = "Big Data"
-      description = ""
+      description = "Data is all around us in many shapes and form, the challenge of aggregating the data to make decisions to improve businesses is what this track challenge is all about. Accenture faces this challenge daily and as such they adopting this track and offering complete mentorship support throughout the weekend. Join this track to mine all that data and create the next Skynet and be StudentHack’s BigData Challenge Winner."
       icon = "icon-chart"
 
     [[params.tracks.item]]
       title = "Security"
-      description = ""
+      description = "Whether you have something to hide, or not, you surely have something to protect. Security is something that concerns everybody, and this is your chance to test your creativity skills, or, better say, your knowledge of encryption algorithms. Join us at StudentHack and work on the Security track, to make sure nobody can easily hack into your accounts and be StudentHack's Security Challenge Winner."
       icon = "icon-lock"
 
     [[params.tracks.item]]
-      title = "Hardware & Automotive"
-      description = ""
-      icon = "icon-settings"
-
-    [[params.tracks.item]]
       title = "Education"
-      description = ""
+      description = "As a world without education is lost forever, if you have the will to improve something, join the Education track to come up with ideas that could change the system you're already a part of. Join this track share with us the next innovative idea for students and teachers and win StudentHack's Education Challenge."
       icon = "icon-graduation"
 
     [[params.tracks.item]]
+      title = "Hardware & Automotive"
+      description = "\"The hardware makes a machine fast, while the software makes a fast machine slow\" if you think that software is just a tool for hardware, then you would be happy to find we have a Hardware track to work on. Join this track and create the device everybody will be talking about in few years, by joining this track and be StudentHack's Hardware Challenge Winner."
+      icon = "icon-settings"
+
+    [[params.tracks.item]]
       title = "General"
-      description = ""
+      description = "Do you already have a great idea and you can't wait to work on it? You'll have the environment, the time, the resources and you'll be surrounded by the right people to do so. Join the Open track at StudentHack and you may be one of the StudentHack's Winners. "
       icon = "icon-globe"
 
   # Sponsors section
