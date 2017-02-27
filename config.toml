@@ -4,7 +4,7 @@ title = "StudentHack V"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
-[params] 
+[params]
   custom_css = ["css/custom1.css"]
 
   # Meta
@@ -17,11 +17,12 @@ theme = "hugo-elate-theme"
     home = "Home"
     faq = "FAQ"
     schedule = "Schedule"
+    tracks = "Tracks"
     sponsors = "Sponsors"
     chart = "Attendance"
     location = "Location"
     contact = "Get In Touch"
-    
+
     # prepended links
     #[[menu.prepend]]
     #  url = "http://gohugo.io"
@@ -33,7 +34,7 @@ theme = "hugo-elate-theme"
     #  url = " "
     #  name = " "
     #  weight = 10
-  
+
   # Hero section
   [params.hero]
     title = "10-12 March 2017 <br> Manchester, England"
@@ -53,7 +54,7 @@ theme = "hugo-elate-theme"
     [[params.faq.item]]
       title = "Who can get a ticket?"
       description = "All enrolled students over 18 and those who graduated in the last one year."
-      icon = "icon-graduation"
+      icon = "icon-user-follow"
 
     [[params.faq.item]]
       title = "What if I study outside the UK?"
@@ -62,37 +63,37 @@ theme = "hugo-elate-theme"
 
     [[params.faq.item]]
       title = "I haven't coded much. Should I come?"
-      description = "Hackathons are for beginners. Networking with and seeing awesome hackers in action will expose you to a tremendous amount of knowledge. There is an amazing suit of industry experts and mentors that are happy to assist you!"      
-      icon = "icon-briefcase"
+      description = "Hackathons are for beginners. Networking with and seeing awesome hackers in action will expose you to a tremendous amount of knowledge. There is an amazing suit of industry experts and mentors that are happy to assist you!"
+      icon = "icon-like"
 
     [[params.faq.item]]
       title = "What should I bring?"
-      description = "Bring your laptop, phone and chargers. Other things to consider: spare clothes, adapters, hardware and a sleeping bag, oh and don't forget your enthusiasm! We are going to provide you with all the food, swag, sleeping rooms and the drinks that you will need."      
+      description = "Bring your laptop, phone and chargers. Other things to consider: spare clothes, adapters, hardware and a sleeping bag, oh and don't forget your enthusiasm! We are going to provide you with all the food, swag, sleeping rooms and the drinks that you will need."
       icon = "icon-basket-loaded"
 
     [[params.faq.item]]
       title = "I don't have a team. Help?"
-      description = "We encourage everybody to form a team with new people, regardless of whether you come with your buddies or not! We will organise a team-building session, where you will meet other participants just like you. Due to logistic restrictions, we ask for the teams to be of 4 people maximum."      
+      description = "We encourage everybody to form a team with new people, regardless of whether you come with your buddies or not! We will organise a team-building session, where you will meet other participants just like you. Due to logistic restrictions, we ask for the teams to be of 4 people maximum."
       icon = "icon-people"
 
     [[params.faq.item]]
       title = "What can I expect from StudentHack?"
-      description = "An entire weekend of great company, good food and plenty of swag! We'll also have hardware and tons of mentors."      
+      description = "An entire weekend of great company, good food and plenty of swag! We'll also have hardware and tons of mentors."
       icon = "icon-magic-wand"
 
     [[params.faq.item]]
       title = "Who owns my IP/code/idea?"
-      description = "You own all the rights to your intellectual property. We won't claim any right over anything made during this event."      
+      description = "You own all the rights to your intellectual property. We won't claim any right over anything made during this event."
       icon = "icon-bulb"
 
     [[params.faq.item]]
       title = "Do you have a code of conduct?"
-      description = "Yes! We strictly adhere to the <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>Major League Hacking Code of Conduct</a>."      
+      description = "Yes! We strictly adhere to the <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>Major League Hacking Code of Conduct</a>."
       icon = "icon-book-open"
 
   # Schedule section
   [params.schedule]
-    enable = true 
+    enable = true
     title = "Schedule"
 
     [[params.schedule.friday]]
@@ -173,6 +174,45 @@ theme = "hugo-elate-theme"
       time = "17:00"
       name = "End of the event"
 
+  # Tracks section
+  [params.tracks]
+    enable = true
+    title = "Tracks"
+
+    [[params.tracks.item]]
+      title = "Gaming"
+      description = ""
+      icon = "icon-game-controller"
+
+    [[params.tracks.item]]
+      title = "Fintech"
+      description = ""
+      icon = "icon-credit-card"
+
+    [[params.tracks.item]]
+      title = "Big Data"
+      description = ""
+      icon = "icon-chart"
+
+    [[params.tracks.item]]
+      title = "Security"
+      description = ""
+      icon = "icon-lock"
+
+    [[params.tracks.item]]
+      title = "Hardware & Automotive"
+      description = ""
+      icon = "icon-settings"
+
+    [[params.tracks.item]]
+      title = "Education"
+      description = ""
+      icon = "icon-graduation"
+
+    [[params.tracks.item]]
+      title = "General"
+      description = ""
+      icon = "icon-globe"
 
   # Sponsors section
   [params.sponsors]
@@ -199,7 +239,7 @@ theme = "hugo-elate-theme"
     [[params.sponsors.track]]
       img = "work_1.jpg"
       alt = "Image2"
-      
+
     [[params.sponsors.track]]
       img = "work_1.jpg"
       alt = "Image2"
@@ -217,7 +257,7 @@ theme = "hugo-elate-theme"
       img = "codethink.png"
       alt = "codethink"
       link = "https://www.codethink.co.uk/"
-    
+
     [[params.sponsors.bronze]]
       img = "noma.png"
       alt = "noma"
@@ -238,7 +278,7 @@ theme = "hugo-elate-theme"
     enable = true
     map = true
     title = "Location"
-    description = "The Landing, Blue, MediaCityUK, M50 2ST, Manchester, UK" 
+    description = "The Landing, Blue, MediaCityUK, M50 2ST, Manchester, UK"
 
   # Counters section
   [params.counters]
@@ -283,7 +323,7 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Get in touch"
     description = "For any question, feedback or sponsorship proposal, feel free to contact us!"
-    
+
     # Available icons: http://simplelineicons.com/
 
     name = "Name"

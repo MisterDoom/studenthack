@@ -1,17 +1,17 @@
 ;(function () {
-	
+
 	'use strict';
 
 
 
-	// iPad and iPod detection	
+	// iPad and iPod detection
 	var isiPad = function(){
 		return (navigator.platform.indexOf("iPad") != -1);
 	};
 
 	var isiPhone = function(){
 	    return (
-			(navigator.platform.indexOf("iPhone") != -1) || 
+			(navigator.platform.indexOf("iPhone") != -1) ||
 			(navigator.platform.indexOf("iPod") != -1)
 	    );
 	};
@@ -33,11 +33,11 @@
 			if ( $('#navbar').is(':visible') ) {
 				$(this).removeClass('active');
 			} else {
-				$(this).addClass('active');	
+				$(this).addClass('active');
 			}
 
-			
-			
+
+
 		});
 
 	};
@@ -46,16 +46,16 @@
 	var goToTop = function() {
 
 		$('.js-gotop').on('click', function(event){
-			
+
 			event.preventDefault();
 
 			$('html, body').animate({
 				scrollTop: $('html').offset().top
 			}, 500);
-			
+
 			return false;
 		});
-	
+
 	};
 
 
@@ -99,9 +99,9 @@
 	var navigationSection = function() {
 
 		var $section = $('section[data-section]');
-		
+
 		$section.waypoint(function(direction) {
-		  	
+
 		  	if (direction === 'down') {
 		    	navActive($(this.element).data('section'));
 		  	}
@@ -120,7 +120,7 @@
 	};
 
 
-	
+
 
 
 	// Window Scroll
@@ -141,8 +141,8 @@
 						header.removeClass('navbar-fixed-top fh5co-animated slideInDown slideOutUp');
 					}, 100 );
 				}
-			} 
-			
+			}
+
 		});
 	};
 
@@ -152,27 +152,27 @@
 	// Home
 
 	var homeAnimate = function() {
-		if ( $('#fh5co-home').length > 0 ) {	
+		if ( $('#fh5co-home').length > 0 ) {
 
 			$('#fh5co-home').waypoint( function( direction ) {
-										
+
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 
 					setTimeout(function() {
 						$('#fh5co-home .to-animate').each(function( k ) {
 							var el = $(this);
-							
+
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
 							},  k * 200, 'easeInOutExpo' );
-							
+
 						});
 					}, 200);
 
-					
+
 					$(this.element).addClass('animated');
-						
+
 				}
 			} , { offset: '80%' } );
 
@@ -181,27 +181,27 @@
 
 
 	var introAnimate = function() {
-		if ( $('#fh5co-intro').length > 0 ) {	
+		if ( $('#fh5co-intro').length > 0 ) {
 
 			$('#fh5co-intro').waypoint( function( direction ) {
-										
+
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 
 					setTimeout(function() {
 						$('#fh5co-intro .to-animate').each(function( k ) {
 							var el = $(this);
-							
+
 							setTimeout ( function () {
 								el.addClass('fadeInRight animated');
 							},  k * 200, 'easeInOutExpo' );
-							
+
 						});
 					}, 1000);
 
-					
+
 					$(this.element).addClass('animated');
-						
+
 				}
 			} , { offset: '80%' } );
 
@@ -209,27 +209,70 @@
 	};
 
 	var sponsorsAnimate = function() {
-		if ( $('#fh5co-sponsors').length > 0 ) {	
+		if ( $('#fh5co-sponsors').length > 0 ) {
 
 			$('#fh5co-sponsors').waypoint( function( direction ) {
-										
+
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 
 					setTimeout(function() {
 						$('#fh5co-sponsors .to-animate').each(function( k ) {
 							var el = $(this);
-							
+
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
 							},  k * 200, 'easeInOutExpo' );
-							
+
 						});
 					}, 200);
 
-					
+
 					$(this.element).addClass('animated');
-						
+
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
+
+	var tracksAnimate = function() {
+		var tracks = $('#fh5co-tracks');
+		if ( tracks.length > 0 ) {
+
+			tracks.waypoint( function( direction ) {
+
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+					var sec = tracks.find('.to-animate').length,
+						sec = parseInt((sec * 100) + 200);
+
+					setTimeout(function() {
+						tracks.find('.to-animate').each(function( k ) {
+							var el = $(this);
+
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+
+						});
+					}, 200);
+
+					setTimeout(function() {
+						tracks.find('.to-animate-2').each(function( k ) {
+							var el = $(this);
+
+							setTimeout ( function () {
+								el.addClass('bounceIn animated');
+							},  k * 200, 'easeInOutExpo' );
+
+						});
+					}, sec);
+
+
+
+					$(this.element).addClass('animated');
+
 				}
 			} , { offset: '80%' } );
 
@@ -239,10 +282,10 @@
 
 	var schedAnimate = function() {
 		var sched = $('#fh5co-schedule');
-		if ( sched.length > 0 ) {	
+		if ( sched.length > 0 ) {
 
 			sched.waypoint( function( direction ) {
-										
+
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 					var sec = sched.find('.to-animate').length,
@@ -251,28 +294,28 @@
 					setTimeout(function() {
 						sched.find('.to-animate').each(function( k ) {
 							var el = $(this);
-							
+
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
 							},  k * 200, 'easeInOutExpo' );
-							
+
 						});
 					}, 200);
 
 					setTimeout(function() {
 						sched.find('.to-animate-2').each(function( k ) {
 							var el = $(this);
-							
+
 							setTimeout ( function () {
 								el.addClass('fadeInDown animated');
 							},  k * 200, 'easeInOutExpo' );
-							
+
 						});
 					}, sec);
 
-					
+
 					$(this.element).addClass('animated');
-						
+
 				}
 			} , { offset: '80%' } );
 
@@ -281,10 +324,10 @@
 
 	var faqAnimate = function() {
 		var faq = $('#fh5co-faq');
-		if ( faq.length > 0 ) {	
+		if ( faq.length > 0 ) {
 
 			faq.waypoint( function( direction ) {
-										
+
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 					var sec = faq.find('.to-animate').length,
@@ -293,29 +336,29 @@
 					setTimeout(function() {
 						faq.find('.to-animate').each(function( k ) {
 							var el = $(this);
-							
+
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
 							},  k * 200, 'easeInOutExpo' );
-							
+
 						});
 					}, 200);
 
 					setTimeout(function() {
 						faq.find('.to-animate-2').each(function( k ) {
 							var el = $(this);
-							
+
 							setTimeout ( function () {
 								el.addClass('bounceIn animated');
 							},  k * 200, 'easeInOutExpo' );
-							
+
 						});
 					}, sec);
 
 
-					
+
 					$(this.element).addClass('animated');
-						
+
 				}
 			} , { offset: '80%' } );
 
@@ -351,28 +394,28 @@
 
 	var locationAnimate = function() {
 		var location = $('#fh5co-location');
-		if ( location.length > 0 ) {	
+		if ( location.length > 0 ) {
 
 			location.waypoint( function( direction ) {
-										
+
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 
 					setTimeout(function() {
 						location.find('.to-animate').each(function( k ) {
 							var el = $(this);
-							
+
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
 							},  k * 200, 'easeInOutExpo' );
-							
+
 						});
 					}, 200);
 
-					
+
 
 					$(this.element).addClass('animated');
-						
+
 				}
 			} , { offset: '80%' } );
 
@@ -381,10 +424,10 @@
 
 	var countersAnimate = function() {
 		var counters = $('#fh5co-counters');
-		if ( counters.length > 0 ) {	
+		if ( counters.length > 0 ) {
 
 			counters.waypoint( function( direction ) {
-										
+
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 					var sec = counters.find('.to-animate').length,
@@ -393,11 +436,11 @@
 					setTimeout(function() {
 						counters.find('.to-animate').each(function( k ) {
 							var el = $(this);
-							
+
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
 							},  k * 200, 'easeInOutExpo' );
-							
+
 						});
 					}, 200);
 
@@ -412,20 +455,20 @@
 					setTimeout(function() {
 						counters.find('.to-animate-2').each(function( k ) {
 							var el = $(this);
-							
+
 							setTimeout ( function () {
 								el.addClass('bounceIn animated');
 							},  k * 200, 'easeInOutExpo' );
-							
+
 						});
 					}, sec);
 
-					
 
-					
+
+
 
 					$(this.element).addClass('animated');
-						
+
 				}
 			} , { offset: '80%' } );
 
@@ -435,25 +478,25 @@
 
 	var contactAnimate = function() {
 		var contact = $('#fh5co-contact');
-		if ( contact.length > 0 ) {	
+		if ( contact.length > 0 ) {
 
 			contact.waypoint( function( direction ) {
-										
+
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 					setTimeout(function() {
 						contact.find('.to-animate').each(function( k ) {
 							var el = $(this);
-							
+
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
 							},  k * 200, 'easeInOutExpo' );
-							
+
 						});
 					}, 200);
 
 					$(this.element).addClass('animated');
-						
+
 				}
 			} , { offset: '80%' } );
 
@@ -461,12 +504,12 @@
 	};
 
 
-	
-	
 
 
-	
-	
+
+
+
+
 
 	// Document on load.
 	$(function(){
@@ -488,13 +531,14 @@
 		homeAnimate();
 		introAnimate();
 		sponsorsAnimate();
+		tracksAnimate();
 		schedAnimate();
 		faqAnimate();
 		chartAnimate();
 		locationAnimate();
 		countersAnimate();
 		contactAnimate();
-		
+
 
 	});
 

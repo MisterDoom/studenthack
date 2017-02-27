@@ -1,0 +1,17 @@
+<section id="fh5co-tracks" data-section="tracks">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 section-heading text-center">
+        <h2 class="center-border to-animate">{{ with .Site.Params.tracks.title }}{{ . | markdownify}}{{ end }}</h2>
+      </div>
+    </div>
+    {{ range .Site.Params.tracks.item }}
+      <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+        <i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
+        <h3>{{ .title | markdownify }}</h3>
+        <p>{{ .description | markdownify }}</p>
+      </div>
+      <div class="clearfix visible-sm-block"></div>
+    {{ end }}
+  </div>
+</section>
