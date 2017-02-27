@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -372,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 0s;
   transition: 0s;
 }
-        
+
 #fh5co-home {
   background-color: transparent;
   background-size: cover;
@@ -608,23 +608,28 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
-#fh5co-faq, #fh5co-schedule, #fh5co-counters, #fh5co-sponsors, #fh5co-contact, #fh5co-location {
+#fh5co-faq, #fh5co-schedule, #fh5co-counters, #fh5co-sponsors, #fh5co-contact, #fh5co-location, #fh5co-tracks {
   padding: 4em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-faq, #fh5co-schedule, #fh5co-counters, #fh5co-sponsors, #fh5co-contact, #fh5co-location {
+  #fh5co-faq, #fh5co-schedule, #fh5co-counters, #fh5co-sponsors, #fh5co-contact, #fh5co-location, #fh5co-tracks {
     padding: 2em 0;
   }
 }
 
-#fh5co-faq, #fh5co-sponsors, #fh5co-counters {
+#fh5co-faq, #fh5co-sponsors, #fh5co-counters, #fh5co-tracks {
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-faq, #fh5co-sponsors, #fh5co-counters {
+  #fh5co-faq, #fh5co-sponsors, #fh5co-counters, #fh5co-tracks {
     padding: 4em 0;
   }
   #fh5co-faq .fh5co-service {
+      display: block;
+      text-align: center;
+  }
+
+  #fh5co-tracks .fh5co-service {
       display: block;
       text-align: center;
   }
@@ -699,6 +704,77 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-faq .section-heading h2.left-border:after {
   background: rgba(255, 255, 255, 0.3);
 }
+
+
+#fh5co-tracks {
+  overflow: hidden;
+  position: relative;
+  color: rgba(255, 255, 255, 0.7);
+
+  background: #2ca083;
+}
+#fh5co-tracks:before, #fh5co-tracks:after {
+  position: absolute;
+  transform: rotate(-1.7deg);
+  -ms-transform: rotate(-1.7deg);
+  -webkit-transform: rotate(-1.7deg);
+  -o-transform: rotate(-1.7deg);
+  -moz-transform: rotate(-1.7deg);
+  background-color: #fff;
+  content: "";
+  z-index: 3;
+  display: inline-block;
+  height: 70px;
+  padding: 0;
+  width: 101%;
+}
+
+#fh5co-tracks:before {
+  top: 0;
+  margin-top: -35px;
+}
+
+#fh5co-tracks:after {
+  bottom: 0;
+  margin-bottom: -35px;
+}
+
+#fh5co-tracks .fh5co-service {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#fh5co-tracks h3 {
+  font-size: 27px;
+  color: #fff;
+  float: right;
+  width: 60%;
+  margin: 50px 15% 0 5%;
+}
+
+#fh5co-tracks p {
+  font-size: 18px;
+}
+
+#fh5co-tracks .icon {
+  font-size: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+#fh5co-tracks .icon:before {
+  color: #fff;
+}
+#fh5co-tracks .section-heading h2 {
+  color: #fff;
+}
+#fh5co-tracks .section-heading h2.left-border:after {
+  background: rgba(255, 255, 255, 0.3);
+}
+
 
 #fh5co-counters {
   background: #52d3aa;
@@ -906,24 +982,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
     color: #48556A;
     margin-top: 50px;
 }
-#fh5co-sponsors .venue-sponsor p {
+#fh5co-sponsors .hardware-sponsor p {
   font-family: Ubuntu;
-  font-size: 45px;
-  color: #1B2B46;
-}
-#fh5co-sponsors .platinum-sponsor p {
-  font-family: Ubuntu;
-  font-size: 45px;
-  color: #1B2B46;
-}
-#fh5co-sponsors .track-sponsor p {
-  font-family: Ubuntu;
-  font-size: 40px;
-  color: #1B2B46;
-}
-#fh5co-sponsors .gold-sponsor p {
-  font-family: Ubuntu;
-  font-size: 35px;
+  font-size: 20px;
   color: #1B2B46;
 }
 #fh5co-sponsors .silver-sponsor p {
@@ -934,11 +995,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 #fh5co-sponsors .bronze-sponsor p {
   font-family: Ubuntu;
   font-size: 25px;
-  color: #1B2B46;
-}
-#fh5co-sponsors .hardware-sponsor p {
-  font-family: Ubuntu;
-  font-size: 20px;
   color: #1B2B46;
 }
 #fh5co-sponsors .partner-sponsor p {
@@ -983,11 +1039,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
   background: rgba(255, 255, 255, 0.3);
 }
 #fh5co-sponsors .fh5co-sponsor-item {
-  display: inline-block;
+  display: inline;
   width: 100%;
-  height: 100%;
-  vertical-align:middle;
   position: relative;
+  top: 0;
   background: #fff;
   overflow: hidden;
   z-index: 9;

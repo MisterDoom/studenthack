@@ -4,7 +4,7 @@ title = "StudentHack V"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
-[params] 
+[params]
   custom_css = ["css/custom1.css"]
 
   # Meta
@@ -17,11 +17,12 @@ theme = "hugo-elate-theme"
     home = "Home"
     faq = "FAQ"
     schedule = "Schedule"
+    tracks = "Tracks"
     sponsors = "Sponsors"
     chart = "Attendance"
     location = "Location"
     contact = "Get In Touch"
-    
+
     # prepended links
     #[[menu.prepend]]
     #  url = "http://gohugo.io"
@@ -33,7 +34,7 @@ theme = "hugo-elate-theme"
     #  url = " "
     #  name = " "
     #  weight = 10
-  
+
   # Hero section
   [params.hero]
     title = "10-12 March 2017 <br> Manchester, England"
@@ -53,7 +54,7 @@ theme = "hugo-elate-theme"
     [[params.faq.item]]
       title = "Who can get a ticket?"
       description = "All enrolled students over 18 and those who graduated in the last one year."
-      icon = "icon-graduation"
+      icon = "icon-user-follow"
 
     [[params.faq.item]]
       title = "What if I study outside the UK?"
@@ -62,37 +63,37 @@ theme = "hugo-elate-theme"
 
     [[params.faq.item]]
       title = "I haven't coded much. Should I come?"
-      description = "Hackathons are for beginners. Networking with and seeing awesome hackers in action will expose you to a tremendous amount of knowledge. There is an amazing suit of industry experts and mentors that are happy to assist you!"      
-      icon = "icon-briefcase"
+      description = "Hackathons are for beginners. Networking with and seeing awesome hackers in action will expose you to a tremendous amount of knowledge. There is an amazing suit of industry experts and mentors that are happy to assist you!"
+      icon = "icon-like"
 
     [[params.faq.item]]
       title = "What should I bring?"
-      description = "Bring your laptop, phone and chargers. Other things to consider: spare clothes, adapters, hardware and a sleeping bag, oh and don't forget your enthusiasm! We are going to provide you with all the food, swag, sleeping rooms and the drinks that you will need."      
+      description = "Bring your laptop, phone and chargers. Other things to consider: spare clothes, adapters, hardware and a sleeping bag, oh and don't forget your enthusiasm! We are going to provide you with all the food, swag, sleeping rooms and the drinks that you will need."
       icon = "icon-basket-loaded"
 
     [[params.faq.item]]
       title = "I don't have a team. Help?"
-      description = "We encourage everybody to form a team with new people, regardless of whether you come with your buddies or not! We will organise a team-building session, where you will meet other participants just like you. Due to logistic restrictions, we ask for the teams to be of 4 people maximum."      
+      description = "We encourage everybody to form a team with new people, regardless of whether you come with your buddies or not! We will organise a team-building session, where you will meet other participants just like you. Due to logistic restrictions, we ask for the teams to be of 4 people maximum."
       icon = "icon-people"
 
     [[params.faq.item]]
       title = "What can I expect from StudentHack?"
-      description = "An entire weekend of great company, good food and plenty of swag! We'll also have hardware and tons of mentors."      
+      description = "An entire weekend of great company, good food and plenty of swag! We'll also have hardware and tons of mentors."
       icon = "icon-magic-wand"
 
     [[params.faq.item]]
       title = "Who owns my IP/code/idea?"
-      description = "You own all the rights to your intellectual property. We won't claim any right over anything made during this event."      
+      description = "You own all the rights to your intellectual property. We won't claim any right over anything made during this event."
       icon = "icon-bulb"
 
     [[params.faq.item]]
       title = "Do you have a code of conduct?"
-      description = "Yes! We strictly adhere to the <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>Major League Hacking Code of Conduct</a>."      
+      description = "Yes! We strictly adhere to the <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>Major League Hacking Code of Conduct</a>."
       icon = "icon-book-open"
 
   # Schedule section
   [params.schedule]
-    enable = true 
+    enable = true
     title = "Schedule"
 
     [[params.schedule.friday]]
@@ -173,50 +174,79 @@ theme = "hugo-elate-theme"
       time = "17:00"
       name = "End of the event"
 
+  # Tracks section
+  [params.tracks]
+    enable = true
+    title = "Tracks"
+
+    [[params.tracks.item]]
+      title = "Fintech"
+      description = "With the aid of technology, challenge the current status quo set by the traditional financial sector. Manage payment, provide insurance and trading advice, and automate tax returns. The possibilities are endless and only more money awaits! Barclays realised those potentials and are offering dedicated expertise advise and full support to this track. Join this track."
+      icon = "icon-credit-card"
+
+    [[params.tracks.item]]
+      title = "Gaming"
+      description = "Want to spend a weekend creating a game? The “Gaming” track brings together hackers who are passionate about games to develop, design, and create games. WebAppsUK is aiming to foster your creative side and they’re fully backing this track with dedicated mentors to help you take on our Gaming challenge and create the next Half-life game and become the StudentHack’s Gaming Challenge Winner."
+      icon = "icon-game-controller"
+
+    [[params.tracks.item]]
+      title = "Big Data"
+      description = "Data is all around us in many shapes and form, the challenge of aggregating the data to make decisions to improve businesses is what this track challenge is all about. Accenture faces this challenge daily and as such they adopting this track and offering complete mentorship support throughout the weekend. Join this track to mine all that data and create the next Skynet and be StudentHack’s BigData Challenge Winner."
+      icon = "icon-chart"
+
+    [[params.tracks.item]]
+      title = "Security"
+      description = "Whether you have something to hide, or not, you surely have something to protect. Security is something that concerns everybody, and this is your chance to test your creativity skills, or, better say, your knowledge of encryption algorithms. Join us at StudentHack and work on the Security track, to make sure nobody can easily hack into your accounts and be StudentHack's Security Challenge Winner."
+      icon = "icon-lock"
+
+    [[params.tracks.item]]
+      title = "Education"
+      description = "As a world without education is lost forever, if you have the will to improve something, join the Education track to come up with ideas that could change the system you're already a part of. Join this track share with us the next innovative idea for students and teachers and win StudentHack's Education Challenge."
+      icon = "icon-graduation"
+
+    [[params.tracks.item]]
+      title = "Hardware & Automotive"
+      description = "\"The hardware makes a machine fast, while the software makes a fast machine slow\" if you think that software is just a tool for hardware, then you would be happy to find we have a Hardware track to work on. Join this track and create the device everybody will be talking about in few years, by joining this track and be StudentHack's Hardware Challenge Winner."
+      icon = "icon-settings"
+
+    [[params.tracks.item]]
+      title = "General"
+      description = "Do you already have a great idea and you can't wait to work on it? You'll have the environment, the time, the resources and you'll be surrounded by the right people to do so. Join the Open track at StudentHack and you may be one of the StudentHack's Winners. "
+      icon = "icon-globe"
 
   # Sponsors section
   [params.sponsors]
     enable = true
-    enVenu = true
-    enPlat = true
+    enPlat = false
     enHard = true
-    enTrac = true
-    enGold = true
+    enTrac = false
+    enGold = false
     enSilv = true
     enBron = true
     enPart = true
     title = "Sponsors"
     description = "They made it possible!"
 
-    [[params.sponsors.venue]]
-      img = "landing.png"
-      alt = "The Landing"
-      link = "http://www.thelanding.org.uk/"
-
     [[params.sponsors.platinum]]
-      img = "riot.png"
-      alt = "Riot"
-      link = "https://riot.im"
+      img = "work_1.jpg"
+      alt = "Image2"
 
-    [[params.sponsors.platinum]]
-      img = "matrix.png"
-      alt = "Matrix"
-      link = "https://matrix.org"
+    [[params.sponsors.hardware]]
+      img = "google.png"
+      alt = "Google"
+      link = "https://get.google.com/tango/"
 
     [[params.sponsors.track]]
-      img = "accenture.png"
-      alt = "Accenture"
-      link = "https://www.accenture.com"
+      img = "work_1.jpg"
+      alt = "Image2"
 
     [[params.sponsors.track]]
-      img = "webapps.png"
-      alt = "WebApplicationsUk"
-      link = "https://www.webapplicationsuk.com"
+      img = "work_1.jpg"
+      alt = "Image2"
 
     [[params.sponsors.gold]]
-      img = "cakesol.png"
-      alt = "Cake Solutions"
-      link = "http://www.cackesolutions.net"
+      img = "work_1.jpg"
+      alt = "Image2"
 
     [[params.sponsors.silver]]
       img = "twilio.png"
@@ -225,43 +255,18 @@ theme = "hugo-elate-theme"
 
     [[params.sponsors.bronze]]
       img = "codethink.png"
-      alt = "Codethink"
+      alt = "codethink"
       link = "https://www.codethink.co.uk/"
-    
+
     [[params.sponsors.bronze]]
       img = "noma.png"
-      alt = "Noma"
-      link = "https://www.noma-manchester.com"
-
-    [[params.sponsors.bronze]]
-      img = "telcom.png"
-      alt = "Telcom"
-      link = "https://telcom.io"
-
-    [[params.sponsors.bronze]]
-      img = ""
-      alt = ""
-      link = ""
-
-    [[params.sponsors.bronze]]
-      img = "morgans.png"
-      alt = "Morgan Stanley"
-      link = "https://www.morganstanley.com/"
-
-    [[params.sponsors.hardware]]
-      img = "google.png"
-      alt = "Google"
-      link = "https://get.google.com/tango/"
+      alt = "noma"
+      link = "http://www.noma-manchester.com"
 
     [[params.sponsors.partner]]
       img = "monzo.png"
-      alt = "Monzo"
+      alt = "monzo"
       link = "https://monzo.com/"
-
-    [[params.sponsors.partner]]
-      img = "namebox.png"
-      alt = "Namebox"
-      link = "https://www.namebox.ro/"
 
   # Chart section
   [params.chart]
@@ -273,7 +278,7 @@ theme = "hugo-elate-theme"
     enable = true
     map = true
     title = "Location"
-    description = "The Landing, Blue, MediaCityUK, M50 2ST, Manchester, UK" 
+    description = "The Landing, Blue, MediaCityUK, M50 2ST, Manchester, UK"
 
   # Counters section
   [params.counters]
@@ -318,7 +323,7 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Get in touch"
     description = "For any question, feedback or sponsorship proposal, feel free to contact us!"
-    
+
     # Available icons: http://simplelineicons.com/
 
     name = "Name"
