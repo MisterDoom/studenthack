@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>StudentHack V</title>
-    <link>http://localhost:1313/index.xml</link>
+    <link>/misterdoom.github.io/studenthack/index.xml</link>
     <description>Recent content on StudentHack V</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Nov 2016 19:41:01 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/misterdoom.github.io/studenthack/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>This is a Standard Post</title>
-      <link>http://localhost:1313/challenges/work2/</link>
+      <link>/misterdoom.github.io/studenthack/challenges/work2/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>http://localhost:1313/challenges/work2/</guid>
+      <guid>/misterdoom.github.io/studenthack/challenges/work2/</guid>
       <description>&lt;p&gt;This is what an ordinary post looks like, and you’re reading a custom excerpt right now. Have fun looking around the theme, and don’t forget to check it out on your phone!
 &lt;/p&gt;
 
@@ -49,10 +49,10 @@
     
     <item>
       <title>Another Awesome Post</title>
-      <link>http://localhost:1313/challenges/work3/</link>
+      <link>/misterdoom.github.io/studenthack/challenges/work3/</link>
       <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
       
-      <guid>http://localhost:1313/challenges/work3/</guid>
+      <guid>/misterdoom.github.io/studenthack/challenges/work3/</guid>
       <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
 &lt;/p&gt;
 
@@ -85,10 +85,10 @@
     
     <item>
       <title>A post without an Image</title>
-      <link>http://localhost:1313/challenges/work4/</link>
+      <link>/misterdoom.github.io/studenthack/challenges/work4/</link>
       <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
       
-      <guid>http://localhost:1313/challenges/work4/</guid>
+      <guid>/misterdoom.github.io/studenthack/challenges/work4/</guid>
       <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
 &lt;/p&gt;
 
@@ -121,10 +121,10 @@
     
     <item>
       <title>A Totally Response Theme</title>
-      <link>http://localhost:1313/challenges/work5/</link>
+      <link>/misterdoom.github.io/studenthack/challenges/work5/</link>
       <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
       
-      <guid>http://localhost:1313/challenges/work5/</guid>
+      <guid>/misterdoom.github.io/studenthack/challenges/work5/</guid>
       <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
 &lt;/p&gt;
 
@@ -157,10 +157,10 @@
     
     <item>
       <title>Post with a Gallery</title>
-      <link>http://localhost:1313/challenges/work7/</link>
+      <link>/misterdoom.github.io/studenthack/challenges/work7/</link>
       <pubDate>Sat, 05 Nov 2016 19:57:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/challenges/work7/</guid>
+      <guid>/misterdoom.github.io/studenthack/challenges/work7/</guid>
       <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
 &lt;/p&gt;
 
@@ -193,10 +193,10 @@
     
     <item>
       <title>A Post with lot of comments</title>
-      <link>http://localhost:1313/challenges/work8/</link>
+      <link>/misterdoom.github.io/studenthack/challenges/work8/</link>
       <pubDate>Sat, 05 Nov 2016 19:59:22 +0530</pubDate>
       
-      <guid>http://localhost:1313/challenges/work8/</guid>
+      <guid>/misterdoom.github.io/studenthack/challenges/work8/</guid>
       <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.
 &lt;/p&gt;
 
@@ -229,10 +229,10 @@
     
     <item>
       <title>Blogging is Fun and Worthwhile</title>
-      <link>http://localhost:1313/challenges/work9/</link>
+      <link>/misterdoom.github.io/studenthack/challenges/work9/</link>
       <pubDate>Sat, 05 Nov 2016 20:02:19 +0530</pubDate>
       
-      <guid>http://localhost:1313/challenges/work9/</guid>
+      <guid>/misterdoom.github.io/studenthack/challenges/work9/</guid>
       <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
 &lt;/p&gt;
 
@@ -265,10 +265,10 @@
     
     <item>
       <title>Item with image</title>
-      <link>http://localhost:1313/challenges/work10/</link>
+      <link>/misterdoom.github.io/studenthack/challenges/work10/</link>
       <pubDate>Sat, 05 Nov 2016 20:22:08 +0530</pubDate>
       
-      <guid>http://localhost:1313/challenges/work10/</guid>
+      <guid>/misterdoom.github.io/studenthack/challenges/work10/</guid>
       <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
 &lt;/p&gt;
 
@@ -301,10 +301,10 @@
     
     <item>
       <title>Item with image</title>
-      <link>http://localhost:1313/challenges/work11/</link>
+      <link>/misterdoom.github.io/studenthack/challenges/work11/</link>
       <pubDate>Sat, 05 Nov 2016 20:23:59 +0530</pubDate>
       
-      <guid>http://localhost:1313/challenges/work11/</guid>
+      <guid>/misterdoom.github.io/studenthack/challenges/work11/</guid>
       <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
 &lt;/p&gt;
 
@@ -337,19 +337,19 @@
     
     <item>
       <title>Studenthack V</title>
-      <link>http://localhost:1313/challenges/</link>
+      <link>/misterdoom.github.io/studenthack/challenges/</link>
       <pubDate>Fri, 03 Mar 2017 23:37:48 +0000</pubDate>
       
-      <guid>http://localhost:1313/challenges/</guid>
+      <guid>/misterdoom.github.io/studenthack/challenges/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Name of the work 1</title>
-      <link>http://localhost:1313/challenges/work1/</link>
+      <link>/misterdoom.github.io/studenthack/challenges/work1/</link>
       <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
       
-      <guid>http://localhost:1313/challenges/work1/</guid>
+      <guid>/misterdoom.github.io/studenthack/challenges/work1/</guid>
       <description>&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
 &lt;/p&gt;
 

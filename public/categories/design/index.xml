@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on StudentHack V</title>
-    <link>http://localhost:1313/categories/design/index.xml</link>
+    <link>/misterdoom.github.io/studenthack/categories/design/index.xml</link>
     <description>Recent content in Design on StudentHack V</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/categories/design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/misterdoom.github.io/studenthack/categories/design/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>This is a Standard Post</title>
-      <link>http://localhost:1313/challenges/work2/</link>
+      <link>/misterdoom.github.io/studenthack/challenges/work2/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>http://localhost:1313/challenges/work2/</guid>
+      <guid>/misterdoom.github.io/studenthack/challenges/work2/</guid>
       <description>&lt;p&gt;This is what an ordinary post looks like, and you’re reading a custom excerpt right now. Have fun looking around the theme, and don’t forget to check it out on your phone!
 &lt;/p&gt;
 
