@@ -109,3 +109,45 @@ table tr td:nth-child(even) {
 table td {
 	padding:15px;
 }
+
+
+/* Challenges CSS */
+/*
+*#fh5co-challenges {
+*  overflow: hidden;
+*  position: relative;
+*  color: rgba(255, 255, 255, 0.7);
+*
+*  background: #2c539e;
+*  background: -moz-linear-gradient(top, #2c539e 0%, #2c539e 100%);
+*  background: -webkit-linear-gradient(top, #2c539e 0%,#2c539e 100%);
+*  background: linear-gradient(to bottom, #2c539e 0%,#2c539e 100%);
+*  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c539e', endColorstr='#2c539e',GradientType=0 );
+*}
+*
+*#fh5co-challenges:before, #fh5co-challenges:after {
+*  position: absolute;
+*  transform: rotate(-1.7deg);
+*  -ms-transform: rotate(-1.7deg);
+*  -webkit-transform: rotate(-1.7deg);
+*  -o-transform: rotate(-1.7deg);
+*  -moz-transform: rotate(-1.7deg);
+*  background-color: #fff;
+*  content: "";
+*  z-index: 3;
+*  display: inline-block;
+*  height: 70px;
+*  padding: 0;
+*  width: 101%;
+*}
+*
+*#fh5co-challenges:before {
+*  top: 0;
+*  margin-top: -35px;
+*}
+*
+*#fh5co-challenges:after {
+*  bottom: 0;
+*  margin-bottom: -35px;
+*}
+*/

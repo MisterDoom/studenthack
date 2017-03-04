@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        {{ partial "chal_head.html" .}}
+    </head>
+    <body>
+        {{ partial "chal_nav.html" . }}
+        {{ partial "hero.html" . }}
+  	{{ partial "challenges.html" . }}
+	{{ if .Site.Params.footer.enable }}
+        	{{ partial "footer.html" . }}
+        {{ end }}
+
+    	{{ partial "chal_js.html" . }}
+    </body>
+</html>

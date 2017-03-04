@@ -32,12 +32,12 @@
     <!-- Facebook and Twitter integration -->
     <meta property="og:title" content="StudentHack V"/>
     <meta property="og:image" content="https://raw.githubusercontent.com/hacksoc-manchester/studenthack-2016/gh-pages/images/shlogo.png"/>
-    <meta property="og:url" content="http://www.studenthack.com"/>
+    <meta property="og:url" content="https://www.studenthack.com"/>
     <meta property="og:description" content="StudentHack V 2017 - #learn #build #share 10-12 March 2017"/>
     <meta name="twitter:title" content="StudentHack V" />
     <meta name="twitter:site" content="@studenthack" />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/hacksoc-manchester/studenthack-2016/gh-pages/images/shlogo.png" />
-    <meta name="twitter:url" content="http://www.studenthack.com" />
+    <meta name="twitter:url" content="https://www.studenthack.com" />
     <meta name="twitter:card" content="summary" />
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -76,9 +76,7 @@
        [params]
           custom_css = ["css/foo.css", "css/bar.css"]
      -->
-    {{ range .Site.Params.custom_css }}
-    <link rel="stylesheet" href="{{ . }}">
-    {{ end }}
+    <link rel="stylesheet" href="{{ .Site.Params.custom_css }}">
 
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>

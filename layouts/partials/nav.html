@@ -11,7 +11,7 @@
                   <ul class="nav navbar-nav navbar-right">
 
                     {{ range .Site.Menus.prepend }}
-                        <li><a href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
+                        <li><a href="{{ .URL }}" class="external"><span>{{ .Name | markdownify }}</span></a></li>
                     {{ end }}
 
                     <li class="active"><a href="#" data-nav-section="home"><span>{{ with .Site.Params.navigation.home }}{{ . | markdownify }}{{ end }}</span></a></li>
@@ -22,6 +22,10 @@
 
                     {{ if .Site.Params.schedule.enable }}
                     <li><a href="#" data-nav-section="schedule"><span>{{ with .Site.Params.navigation.schedule }}{{ . | markdownify }}{{ end }}</span></a></li> 
+                    {{ end }}
+
+                    {{ if .Site.Params.tracks.enable }}
+                    <li><a href="#" data-nav-section="tracks"><span>{{ with .Site.Params.navigation.tracks }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
 
                     {{ if .Site.Params.sponsors.enable }}
@@ -41,7 +45,7 @@
                     {{ end }}
 
                     {{ range .Site.Menus.postpend }}
-                        <li><a href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
+                        <li><a href="{{ .URL }}" class="external"><span>{{ .Name | markdownify }}</span></a></li>
                     {{ end }}
                 </ul>
             </div> 

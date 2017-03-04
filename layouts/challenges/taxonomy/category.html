@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>{{ partial "head.html" . }}</head>
+  <body>
+    {{ partial "chal_nav.html" . }}
+    <div class="row">
+        <div class="col-md-10 main-content col-md-offset-1">
+            {{ partial "category.html" . }}
+        </div>
+    </div>
+    {{ partial "footer.html" . }}
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

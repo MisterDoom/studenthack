@@ -1,0 +1,67 @@
+<section id="fh5co-challenges" data-section="challenges">
+    <div class="container">
+	<div class="row">
+		<div class="col-md-12 section-heading text-center">
+			<h2 class=" center-border to-animate">{{ with .Site.Params.challenges.title }}{{ . | markdownify }}{{ end }}</h2>
+			<div class="row">
+				<div class="col-md-8 subtext to-animate">
+					<h3>{{ with .Site.Params.challenges.description }}{{ . | markdownify }}{{ end }}</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+    	{{ range $index, $element := (where .Site.Pages "Section" "challenges") }}
+    	{{if mod (add $index 1) 2 }}
+    	<div class="row content to-animate">
+    	  {{ if and (isset .Params "image") .Params.image }}
+    	  <div class="col-md-6 content-excerpt">
+    	    {{ else }}
+    	    <div class="col-md-12 content-excerpt">
+    	      {{end}}
+    	      <div class="row">
+    	        <div class="col-md-12">
+    	          <div class="row content-title">
+    	            <h2> <a href="{{ .Permalink }} "> {{ .Title }} </a> </h2>
+    	          </div>
+    	          <div class="row content-summary">
+    	            <p> {{ .Summary }} </p>
+    	            <a class="more-link" href="{{ .Permalink }} "> READ THE CHALLENGE </a>
+    	          </div>
+    	        </div>
+    	      </div>
+    	    </div>
+    	    {{ if and (isset .Params "image") .Params.image }}
+    	    <div class="col-md-6 content-image" style="background-image: url(../{{ .Params.image }})">
+    	    </div>
+    	    {{ end }}
+    	  </div>
+    	  {{ else }}
+    	  <div class="row content to-animate">
+    	    {{ if and (isset .Params "image") .Params.image }}
+    	    <div class="col-md-6 content-image" style="background-image: url(../{{ .Params.image }})">
+    	    </div>
+    	    {{ end }}
+    	
+    	    {{ if and (isset .Params "image") .Params.image }}
+    	    <div class="col-md-6 content-excerpt">
+    	      {{ else }}
+    	      <div class="col-md-12 content-excerpt">
+    	        {{end}}
+    	        <div class="row">
+    	          <div class="col-md-12">
+    	            <div class="content-title">
+    	              <h2> <a href="{{ .Permalink }} "> {{ .Title }} </a> </h2>
+    	            </div>
+    	            <div class="content-summary">
+    	              <p> {{ .Summary }} </p>
+    	              <a class="more-link" href="{{ .Permalink }} "> READ THE CHALLENGE </a>
+    	            </div>
+    	          </div>
+    	        </div>
+    	      </div>
+    	
+    	    </div>
+    	    {{end}}
+    	    {{ end }}
+    	</div>
+</section>
