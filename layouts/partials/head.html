@@ -46,15 +46,15 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" /> 
 
     <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href={{ "css/animate.css" | absURL }}>
     <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href={{ "css/icomoon.css" | absURL }}>
     <!-- Simple Line Icons -->
-    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href={{ "css/simple-line-icons.css" | absURL }}>
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href={{ "css/magnific-popup.css" | absURL }}>
     <!-- Bootstrap  -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href={{ "css/bootstrap.css" | absURL }}>
 
     <!-- 
     Default Theme Style 
@@ -69,18 +69,18 @@
     7. green.css
 
     -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href={{ "css/style.css" | absURL }}>
 
     <!--
        custom css files can be configured in config.toml:
        [params]
           custom_css = ["css/foo.css", "css/bar.css"]
      -->
-    <link rel="stylesheet" href="{{ .Site.Params.custom_css }}">
+    <link rel="stylesheet" href={{ .Site.Params.custom_css | absURL }}>
 
     <!-- Modernizr JS -->
-    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src={{ "js/modernizr-2.6.2.min.js" | absURL }}></script>
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
-    <script src="js/respond.min.js"></script>
+    <script src={{ "js/respond.min.js | absURL }}"></script>
     <![endif]-->

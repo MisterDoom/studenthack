@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "studenthack"
+baseurl = "https://misterdoom.github.io/studenthack"
 title = "StudentHack V"
 publishdir = "public"
 languageCode = "en-us"
