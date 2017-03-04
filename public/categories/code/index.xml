@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code on StudentHack V</title>
-    <link>/misterdoom.github.io/studenthack/categories/code/index.xml</link>
+    <link>https://misterdoom.github.io/studenthack/categories/code/index.xml</link>
     <description>Recent content in Code on StudentHack V</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/misterdoom.github.io/studenthack/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://misterdoom.github.io/studenthack/categories/code/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A post without an Image</title>
-      <link>/misterdoom.github.io/studenthack/challenges/work4/</link>
+      <link>https://misterdoom.github.io/studenthack/challenges/work4/</link>
       <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
       
-      <guid>/misterdoom.github.io/studenthack/challenges/work4/</guid>
+      <guid>https://misterdoom.github.io/studenthack/challenges/work4/</guid>
       <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
 &lt;/p&gt;
 
